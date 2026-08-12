@@ -195,14 +195,6 @@ function arrivalToast() {
 }
 setInterval(() => { if (Math.random() < 0.5) arrivalToast(); }, 32000);
 
-/* ---------- clock ---------- */
-function clockTick() {
-  const d = new Date();
-  let h = d.getHours() % 12 || 12;
-  $("clock").textContent = `${h}:${String(d.getMinutes()).padStart(2, "0")} ${d.getHours() < 12 ? "am" : "pm"}`;
-}
-setInterval(clockTick, 20000);
-clockTick();
 
 /* ---------- coach marks ---------- */
 function showCoach(id) { if (!localStorage.getItem("wm_" + id)) $(id).classList.remove("hidden"); }
@@ -212,7 +204,7 @@ function dismissCoach(id) { localStorage.setItem("wm_" + id, "1"); $(id).classLi
 $("share-btn").onclick = () => {
   const ch = CHANNELS[active];
   const url = location.origin + location.pathname + "#" + ch.slug;
-  const text = ch.shareLine || `${ch.name} sun raha hoon Wiom Music pe`;
+  const text = ch.shareLine || `${ch.name} sun raha hoon Wiom Tunes pe`;
   if (navigator.share) navigator.share({ text, url }).catch(() => {});
   else navigator.clipboard.writeText(text + " " + url);
 };
