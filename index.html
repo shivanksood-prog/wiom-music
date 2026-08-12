@@ -31,7 +31,34 @@
 
 <div id="toast" class="hidden"></div>
 
-<div id="yt-dock" aria-hidden="true"><div id="yt-holder"><div id="yt"></div></div></div>
+<div id="tvset" aria-hidden="true">
+  <div id="tv-shadow"></div>
+  <svg id="tv-cabinet" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+    <!-- antenna -->
+    <g stroke="#2b2138" stroke-width="3" stroke-linecap="round">
+      <line x1="130" y1="42" x2="96" y2="10"/>
+      <line x1="130" y1="42" x2="168" y2="12"/>
+    </g>
+    <circle cx="96" cy="10" r="4" fill="#2b2138"/><circle cx="168" cy="12" r="4" fill="#2b2138"/>
+    <!-- cabinet -->
+    <rect x="10" y="38" width="240" height="152" rx="18" fill="#5a3d2b"/>
+    <rect x="10" y="38" width="240" height="12" rx="6" fill="#6e4c35"/>
+    <rect x="10" y="176" width="240" height="14" rx="7" fill="#452c1d"/>
+    <!-- feet -->
+    <rect x="38" y="186" width="26" height="12" rx="4" fill="#3f2a1d"/>
+    <rect x="196" y="186" width="26" height="12" rx="4" fill="#3f2a1d"/>
+    <!-- screen bezel -->
+    <rect x="22" y="52" width="168" height="126" rx="12" fill="#2b1c14"/>
+    <rect x="27" y="57" width="158" height="116" rx="9" fill="#0d0913"/>
+    <!-- right control panel -->
+    <rect x="200" y="58" width="44" height="114" rx="8" fill="#4a3122"/>
+    <circle cx="222" cy="80" r="10" fill="#caa46a"/><circle cx="222" cy="80" r="4" fill="#5a3d2b"/>
+    <circle cx="222" cy="108" r="10" fill="#caa46a"/><circle cx="222" cy="108" r="4" fill="#5a3d2b"/>
+    <g fill="#3f2a1d"><rect x="210" y="132" width="24" height="3" rx="1.5"/><rect x="210" y="140" width="24" height="3" rx="1.5"/><rect x="210" y="148" width="24" height="3" rx="1.5"/><rect x="210" y="156" width="24" height="3" rx="1.5"/></g>
+  </svg>
+  <div id="yt-screen"><div id="yt-holder"><div id="yt"></div></div></div>
+  <div id="tv-glass"></div>
+</div>
 
 <div id="pill">
   <div id="disc-wrap"><img id="disc" src="" alt=""><span id="disc-pin"></span></div>
