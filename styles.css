@@ -125,6 +125,11 @@ body.playing #disc { animation-play-state: running; }
 #pp { width: 46px !important; height: 46px !important; background: var(--cream) !important; color: var(--plum) !important;
   box-shadow: 0 5px 18px rgba(0,0,0,.4); }
 
+.tap-ripple { position: fixed; z-index: 30; width: 18px; height: 18px; border-radius: 50%;
+  border: 2px solid var(--cream); transform: translate(-50%, -50%); pointer-events: none;
+  animation: rippleout .5s ease-out forwards; }
+@keyframes rippleout { from { opacity: .9; scale: .5; } to { opacity: 0; scale: 2.8; } }
+
 /* ---- coach marks ---- */
 .coach { position: fixed; z-index: 30; pointer-events: none;
   font-family: "Yatra One", system-ui; font-size: 15px;

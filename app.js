@@ -216,16 +216,41 @@ function startPlayback() {
   tuneIn();
 }
 
-/* horizontal swipe on the feed = prev/next song (vertical stays = channel) */
-let tx = 0, ty = 0;
+/* gestures on the feed:
+ *  - vertical swipe (native snap-scroll) = channel
+ *  - horizontal swipe = prev/next SONG
+ *  - tap on left/right EDGE = prev/next CHANNEL (TV-remote zapping) */
+function goChannel(delta) {
+  const t = Math.min(CHANNELS.length - 1, Math.max(0, active + delta));
+  if (t !== active) document.getElementById(CHANNELS[t].slug).scrollIntoView({ behavior: "smooth" });
+}
+function ripple(x, y) {
+  const r = document.createElement("span");
+  r.className = "tap-ripple";
+  r.style.left = x + "px"; r.style.top = y + "px";
+  document.body.appendChild(r);
+  setTimeout(() => r.remove(), 500);
+}
+let tx = 0, ty = 0, tt = 0;
 $("feed").addEventListener("touchstart", (e) => {
-  tx = e.touches[0].clientX; ty = e.touches[0].clientY;
+  tx = e.touches[0].clientX; ty = e.touches[0].clientY; tt = Date.now();
 }, { passive: true });
 $("feed").addEventListener("touchend", (e) => {
-  const dx = e.changedTouches[0].clientX - tx;
-  const dy = e.changedTouches[0].clientY - ty;
-  if (Math.abs(dx) > 60 && Math.abs(dx) > 1.6 * Math.abs(dy)) step(dx < 0 ? 1 : -1);
+  const x = e.changedTouches[0].clientX, y = e.changedTouches[0].clientY;
+  const dx = x - tx, dy = y - ty, dt = Date.now() - tt;
+  if (Math.abs(dx) > 60 && Math.abs(dx) > 1.6 * Math.abs(dy)) { step(dx < 0 ? 1 : -1); return; }
+  if (Math.abs(dx) < 12 && Math.abs(dy) < 12 && dt < 350) {
+    const w = window.innerWidth;
+    if (x > w * 0.85) { ripple(x, y); goChannel(1); }
+    else if (x < w * 0.15) { ripple(x, y); goChannel(-1); }
+  }
 }, { passive: true });
+$("feed").addEventListener("click", (e) => {
+  if (e.target.closest("#pill,#topbar,#yt-dock,#unmute,a,button")) return;
+  const w = window.innerWidth;
+  if (e.clientX > w * 0.85) { ripple(e.clientX, e.clientY); goChannel(1); }
+  else if (e.clientX < w * 0.15) { ripple(e.clientX, e.clientY); goChannel(-1); }
+});
 document.addEventListener("keydown", (e) => {
   if (e.key === "ArrowRight") step(1);
   if (e.key === "ArrowLeft") step(-1);
