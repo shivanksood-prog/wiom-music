@@ -65,8 +65,8 @@ body[data-daypart="any"] .channel.active::after { background: linear-gradient(18
 #topbar > * { pointer-events: auto; }
 .brand { display: flex; align-items: center; gap: 7px;
   filter: drop-shadow(0 1px 6px rgba(18,11,28,.85)); }
-.brand-mark { height: 20px; width: auto; display: block; }
-.brand-tunes { font-family: "Yatra One", system-ui; font-size: 19px; line-height: 1;
+.brand-mark { height: 18px; width: auto; display: block; }
+.brand-tunes { font-family: "Yatra One", system-ui; font-size: 16px; line-height: 1;
   color: var(--cream); position: relative; top: 1px; }
 .presence { display: flex; align-items: center; gap: 5px; font-size: 11.5px; white-space: nowrap; padding: 6px 13px; border-radius: 999px;
   color: var(--cream); text-shadow: 0 1px 6px rgba(18,11,28,.6); }
@@ -74,10 +74,11 @@ body[data-daypart="any"] .channel.active::after { background: linear-gradient(18
 .presence b { font-variant-numeric: tabular-nums; }
 @keyframes pulse { 50% { opacity: .45; } }
 #top-actions { display: flex; align-items: center; gap: 4px; }
-#yt-pill { display: flex; align-items: center; gap: 6px; color: var(--cream); text-decoration: none;
-  font-size: 12px; font-weight: 600; padding: 6px 11px; border-radius: 999px;
+#yt-pill { display: flex; align-items: center; color: var(--cream); text-decoration: none;
+  padding: 7px; border-radius: 999px;
   background: var(--glass); border: 1px solid var(--glass-line);
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+#yt-pill span { display: none; }
 #share-btn { width: 34px; height: 34px; border-radius: 50%; border: 0; background: transparent; color: var(--cream);
   font-size: 17px; cursor: pointer; text-shadow: 0 1px 6px rgba(18,11,28,.8); }
 
