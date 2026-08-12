@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wiom Music — UI Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --plum:#1D1428; --cream:#FFF3E0; --brand:#D9008D; --glass:rgba(24,16,34,.6); --line:rgba(255,243,224,.2); }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#120C22; color:var(--cream); font-family:"Noto Sans",sans-serif; padding:34px 18px 80px; }
+h1 { font-family:"Yatra One"; font-size:34px; text-align:center; }
+h1 span { color:var(--brand); }
+.sub { text-align:center; opacity:.7; font-size:14px; margin:6px 0 40px; }
+h2 { font-family:"Yatra One"; font-size:24px; margin:44px 0 6px; text-align:center; }
+.note { text-align:center; font-size:13px; opacity:.72; max-width:640px; margin:0 auto 26px; }
+.row { display:flex; flex-wrap:wrap; gap:26px; justify-content:center; }
+.opt { width:270px; }
+.opt h3 { font-size:16px; margin:14px 2px 4px; }
+.opt h3 b { color:var(--brand); }
+.opt p { font-size:12.5px; opacity:.75; line-height:1.45; margin:0 2px; }
+.tag { display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.06em; padding:3px 9px; border-radius:99px; margin:10px 0 0 2px; }
+.tag.rec { background:rgba(0,128,67,.25); border:1px solid rgba(0,128,67,.6); color:#7dffc0; }
+.tag.warn { background:rgba(255,128,0,.18); border:1px solid rgba(255,128,0,.5); color:#ffcf9e; }
+
+/* phone frame */
+.ph { position:relative; width:270px; height:540px; border-radius:30px; overflow:hidden;
+  border:5px solid #0d0913; box-shadow:0 18px 50px rgba(0,0,0,.55); background:var(--plum); }
+.ph img.scene { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.ph .scrimb { position:absolute; left:0; right:0; bottom:0; height:45%;
+  background:linear-gradient(transparent, rgba(18,11,28,.9)); }
+.ph .lock { position:absolute; top:26px; width:100%; text-align:center;
+  font-family:"Yatra One"; font-size:30px; text-shadow:0 2px 0 rgba(120,40,20,.55),0 8px 26px rgba(18,11,28,.8); }
+/* pill */
+.pill { position:absolute; left:9px; right:9px; bottom:11px; display:flex; align-items:center; gap:9px;
+  padding:7px 11px 7px 7px; border-radius:99px; background:var(--glass); border:1px solid var(--line);
+  backdrop-filter:blur(14px); }
+.disc { width:42px; height:42px; border-radius:50%; flex:none;
+  background:radial-gradient(circle at 35% 35%, #a0526e, #4a1a3a 70%);
+  box-shadow:inset 0 0 0 1px rgba(255,243,224,.3),0 3px 10px rgba(0,0,0,.5); position:relative;
+  animation:spin 7s linear infinite; }
+.disc::after { content:""; position:absolute; inset:0; margin:auto; width:9px; height:9px; border-radius:50%;
+  background:#120C22; box-shadow:0 0 0 2px rgba(255,243,224,.4); }
+@keyframes spin { to { transform:rotate(360deg); } }
+.meta { flex:1; min-width:0; }
+.t1 { font-size:11.5px; font-weight:700; white-space:nowrap; overflow:hidden; }
+.t2 { font-size:9.5px; opacity:.65; white-space:nowrap; overflow:hidden; }
+.bar { height:2.5px; border-radius:2px; background:rgba(255,243,224,.22); margin-top:5px; overflow:hidden; }
+.bar i { display:block; height:100%; width:40%; background:var(--cream); }
+.pp { width:32px; height:32px; border-radius:50%; background:var(--cream); flex:none; position:relative; }
+.pp::after { content:""; position:absolute; inset:0; margin:auto; width:8px; height:10px;
+  border-left:3px solid var(--plum); border-right:3px solid var(--plum); }
+
+/* ---------- OPTION A: horizontal swipe ---------- */
+.hand { position:absolute; z-index:6; width:38px; height:38px; border-radius:50%;
+  background:rgba(255,243,224,.9); box-shadow:0 4px 18px rgba(0,0,0,.5); top:47%; }
+.oA .hand { animation:swipeL 5s ease-in-out infinite; }
+@keyframes swipeL {
+  0%,55% { left:75%; opacity:0; transform:scale(.7); }
+  60% { opacity:.95; transform:scale(1); }
+  75% { left:18%; opacity:.95; }
+  82%,100% { left:12%; opacity:0; }
+}
+.oA .trail { position:absolute; z-index:5; top:calc(47% + 16px); left:20%; right:22%; height:3px; border-radius:2px;
+  background:linear-gradient(90deg, transparent, rgba(255,243,224,.85)); opacity:0;
+  animation:trailL 5s ease-in-out infinite; }
+@keyframes trailL { 60% { opacity:0; } 72% { opacity:.9; } 85%,100% { opacity:0; } }
+.oA .t1 span { display:inline-block; animation:songswap 5s ease-in-out infinite; }
+@keyframes songswap { 0%,78% { opacity:1; } 80% { opacity:0; } 84%,100% { opacity:1; } }
+.oA .t1 span::before { content:"Dum Maro Dum"; animation:names 10s steps(1) infinite; }
+@keyframes names { 0%,49% { content:"Dum Maro Dum"; } 50%,100% { content:"Disco Station"; } }
+.axis { position:absolute; z-index:4; right:12px; top:38%; font-size:10px; opacity:.8;
+  background:var(--glass); border:1px solid var(--line); padding:5px 9px; border-radius:9px; line-height:1.6; }
+
+/* ---------- OPTION B: edge tap zones ---------- */
+.zone { position:absolute; z-index:4; top:0; bottom:80px; width:33%; }
+.zone.r { right:0; background:linear-gradient(270deg, rgba(217,0,141,.16), transparent);
+  animation:zoneflash 5s infinite; }
+.zone.l { left:0; background:linear-gradient(90deg, rgba(255,243,224,.08), transparent); }
+@keyframes zoneflash { 0%,55%,90%,100% { opacity:0; } 62%,80% { opacity:1; } }
+.zlabel { position:absolute; top:47%; font-size:20px; opacity:.8; }
+.zone.r .zlabel { right:12px; } .zone.l .zlabel { left:12px; }
+.ripple { position:absolute; z-index:6; right:16%; top:47%; width:16px; height:16px; border-radius:50%;
+  border:2px solid var(--cream); opacity:0; animation:rip 5s infinite; }
+@keyframes rip { 60% { opacity:0; transform:scale(.4); } 66% { opacity:.9; } 78% { opacity:0; transform:scale(2.6); } }
+
+/* ---------- OPTION C: disc fling ---------- */
+.oC .disc { animation:spin 7s linear infinite, fling 5s ease-in infinite; }
+@keyframes fling {
+  0%,58% { translate:0 0; opacity:1; }
+  70% { translate:150px -8px; opacity:0; }
+  71% { translate:-30px 0; opacity:0; }
+  80%,100% { translate:0 0; opacity:1; }
+}
+.khirrr { position:absolute; z-index:7; bottom:74px; left:24px; font-family:"Yatra One"; font-size:17px;
+  color:#FFB2E4; text-shadow:0 2px 12px rgba(217,0,141,.7); opacity:0; rotate:-7deg;
+  animation:khi 5s infinite; }
+@keyframes khi { 0%,60% { opacity:0; } 66%,78% { opacity:1; } 88%,100% { opacity:0; } }
+
+/* ---------- CRT (video modes) ---------- */
+.crt { position:absolute; z-index:5; right:10px; bottom:78px; width:172px; aspect-ratio:4/3;
+  border-radius:10px; border:5px solid #4a3226; background:#0d0913; overflow:hidden;
+  box-shadow:0 1px 0 1px #2b1c14, 0 10px 28px rgba(0,0,0,.6); }
+.crt .vid { position:absolute; inset:0;
+  background:linear-gradient(160deg,#7d3a5a 0%,#3a2a6e 45%,#173a4a 100%); }
+.crt .vid::before { content:""; position:absolute; left:0; right:0; top:16%; height:12%; background:rgba(13,9,19,.85); }
+.crt .vid::after { content:""; position:absolute; left:0; right:0; bottom:16%; height:12%; background:rgba(13,9,19,.85); }
+.crt .glow { position:absolute; inset:0; background:repeating-linear-gradient(transparent 0 2px, rgba(255,255,255,.045) 2px 3px);
+  animation:flick 3s infinite; }
+@keyframes flick { 0%,100% { opacity:.9; } 50% { opacity:.55; } }
+.knob { position:absolute; z-index:6; width:13px; height:13px; border-radius:50%;
+  background:#6b4a34; right:4px; top:26px; box-shadow:inset 0 -1px 2px rgba(0,0,0,.6),0 0 0 5px rgba(217,0,141,.28);
+  animation:knobpulse 2.4s infinite; }
+@keyframes knobpulse { 50% { box-shadow:inset 0 -1px 2px rgba(0,0,0,.6),0 0 0 9px rgba(217,0,141,.12); } }
+/* D: minimize loop */
+.oD .crt { transform-origin: 22% 108%; animation:mini 7s ease-in-out infinite; }
+@keyframes mini {
+  0%,48% { transform:scale(1); opacity:1; border-radius:10px; }
+  60%,72% { transform:scale(.13) translate(-330%, 175%); opacity:.9; border-radius:50%; }
+  84%,100% { transform:scale(1); opacity:1; }
+}
+.oD .disc { box-shadow:0 0 0 3px rgba(217,0,141,.45), 0 3px 10px rgba(0,0,0,.5); }
+/* E: toggle slide-in */
+.oE .crt { animation:slidein 6s ease-in-out infinite; }
+@keyframes slidein {
+  0%,40% { transform:translateY(130%); opacity:0; }
+  52%,86% { transform:translateY(0); opacity:1; }
+  96%,100% { transform:translateY(130%); opacity:0; }
+}
+.tvbtn { position:absolute; z-index:7; bottom:22px; right:56px; width:26px; height:26px; border-radius:50%;
+  background:rgba(255,243,224,.14); border:1px solid var(--line); display:grid; place-items:center; font-size:13px;
+  animation:knobpulse 2.4s infinite; }
+/* F: split demo */
+.duo { display:flex; gap:10px; }
+.duo .ph { width:130px; height:262px; border-radius:18px; border-width:3px; }
+.duo .lock { font-size:15px; top:12px; }
+.duo .crt { width:82px; right:8px; bottom:40px; border-width:3px; border-radius:6px; }
+.duo .pill { left:5px; right:5px; bottom:6px; padding:4px 6px; gap:5px; }
+.duo .disc { width:22px; height:22px; }
+.duo .t1 { font-size:7px; } .duo .t2 { font-size:6px; } .duo .bar { display:none; }
+.duo .pp { width:17px; height:17px; } .duo .pp::after { width:5px; height:6px; border-width:2px; }
+.cap { position:absolute; bottom:64px; left:0; right:0; text-align:center; font-size:9px; opacity:.75; }
+footer { text-align:center; margin-top:60px; font-size:12px; opacity:.55; }
+</style>
+</head>
+<body>
+
+<h1>Wiom <span>Music</span> — UI options</h1>
+<p class="sub">Live app: <a href="index.html" style="color:#FFB2E4">shivanksood-prog.github.io/wiom-music</a> · sab animations demo hain</p>
+
+<h2>1 · Agla gaana kaise?</h2>
+<p class="note">Vertical swipe = channel (jagah). Sawaal: song skip ka gesture kya ho?</p>
+<div class="row">
+
+  <div class="opt oA">
+    <div class="ph">
+      <img class="scene" src="scenes/horn-ok.svg" alt="">
+      <div class="scrimb"></div>
+      <div class="lock">हॉर्न ओके</div>
+      <div class="axis">⬆⬇ jagah<br>⬅➡ gaana</div>
+      <div class="trail"></div><div class="hand"></div>
+      <div class="pill"><div class="disc"></div>
+        <div class="meta"><div class="t1"><span></span></div><div class="t2">Asha Bhosle · Saregama</div><div class="bar"><i></i></div></div>
+        <div class="pp"></div></div>
+    </div>
+    <h3>A · <b>Horizontal swipe</b></h3>
+    <p>Scene pe kahin bhi left swipe = agla gaana, right = pichla. Reels ka muscle memory — vertical jagah badalta hai, horizontal gaana. Koi naya UI nahi.</p>
+    <span class="tag rec">RECOMMENDED</span>
+  </div>
+
+  <div class="opt oB">
+    <div class="ph">
+      <img class="scene" src="scenes/chai-tapri.svg" alt="">
+      <div class="scrimb"></div>
+      <div class="lock">चाय टपरी</div>
+      <div class="zone l"><span class="zlabel">◄</span></div>
+      <div class="zone r"><span class="zlabel">►</span></div>
+      <div class="ripple"></div>
+      <div class="pill"><div class="disc"></div>
+        <div class="meta"><div class="t1">Pal Pal Dil Ke Paas</div><div class="t2">Kishore Kumar · Saregama</div><div class="bar"><i></i></div></div>
+        <div class="pp"></div></div>
+    </div>
+    <h3>B · <b>Edge tap zones</b></h3>
+    <p>Instagram Stories pattern: scene ke right hisse pe tap = agla, left pe tap = pichla. Ek ungli, zero seekhna. Risk: galti se skip ho sakta hai.</p>
+    <span class="tag warn">ACCIDENTAL TAPS</span>
+  </div>
+
+  <div class="opt oC">
+    <div class="ph">
+      <img class="scene" src="scenes/jhankaar.svg" alt="">
+      <div class="scrimb"></div>
+      <div class="lock">झंकार</div>
+      <div class="khirrr">khirrrrr…!</div>
+      <div class="pill"><div class="disc"></div>
+        <div class="meta"><div class="t1">Dhak Dhak Karne Laga</div><div class="t2">Jhankar Beats · Tips</div><div class="bar"><i></i></div></div>
+        <div class="pp"></div></div>
+    </div>
+    <h3>C · <b>Disc fling + khirrr</b></h3>
+    <p>Pill ki ghoomti disc ko fling karo = agla gaana, cassette-rewind "khirrr" ke saath. Sabse mazedaar aur shareable — par chhota target, seekhna padta hai. Best as add-on.</p>
+    <span class="tag warn">ADD-ON, NOT PRIMARY</span>
+  </div>
+</div>
+
+<h2>2 · Video kitna dikhe? (legal + views)</h2>
+<p class="note">Hidden 1px player YouTube ToS ka gray zone hai — aur hidden play par views bhi аksar count nahi hote, matlab labels ko kuch nahi milta. Visible video = defensible + views count.</p>
+<div class="row">
+
+  <div class="opt oD">
+    <div class="ph">
+      <img class="scene" src="scenes/mehfil.svg" alt="">
+      <div class="scrimb"></div>
+      <div class="lock">महफ़िल</div>
+      <div class="crt"><div class="vid"></div><div class="glow"></div><div class="knob"></div></div>
+      <div class="pill"><div class="disc"></div>
+        <div class="meta"><div class="t1">Hoshwalon Ko Khabar</div><div class="t2">Jagjit Singh · Saregama</div><div class="bar"><i></i></div></div>
+        <div class="pp"></div></div>
+    </div>
+    <h3>D · <b>CRT visible, user minimize kare</b></h3>
+    <p>Video chhote in-scene CRT TV mein by default (compliant, views count). TV ka knob dabao to disc mein simat jata hai — user ka choice, hamara design nahi. Zyadatar log chalta chhod denge.</p>
+    <span class="tag rec">RECOMMENDED</span>
+  </div>
+
+  <div class="opt oE">
+    <div class="ph">
+      <img class="scene" src="scenes/2005-fm.svg" alt="">
+      <div class="scrimb"></div>
+      <div class="lock">२००५ एफ एम</div>
+      <div class="crt"><div class="vid"></div><div class="glow"></div></div>
+      <div class="tvbtn">📺</div>
+      <div class="pill"><div class="disc"></div>
+        <div class="meta"><div class="t1">Zara Zara</div><div class="t2">Bombay Jayashri · Saregama</div><div class="bar"><i></i></div></div>
+        <div class="pp"></div></div>
+    </div>
+    <h3>E · <b>TV-mode toggle, default OFF</b></h3>
+    <p>Abhi jaisa clean audio-only look; pill pe 📺 button dabao to CRT slide-in hota hai. Screen sabse saaf — par default hidden hi rehta hai, to gray zone aur uncounted views waisi hi.</p>
+    <span class="tag warn">STILL GRAY BY DEFAULT</span>
+  </div>
+
+  <div class="opt oF">
+    <div class="duo">
+      <div class="ph">
+        <img class="scene" src="scenes/tv-wale-gaane.svg" alt="">
+        <div class="scrimb"></div>
+        <div class="lock">टीवी वाले गाने</div>
+        <div class="crt"><div class="vid"></div><div class="glow"></div></div>
+        <div class="cap">video: scene ke CRT mein</div>
+        <div class="pill"><div class="disc"></div>
+          <div class="meta"><div class="t1">Tamma Tamma</div><div class="t2">Bappi · Venus</div></div>
+          <div class="pp"></div></div>
+      </div>
+      <div class="ph">
+        <img class="scene" src="scenes/baarish.svg" alt="">
+        <div class="scrimb"></div>
+        <div class="lock">बारिश</div>
+        <div class="cap">audio-only</div>
+        <div class="pill"><div class="disc"></div>
+          <div class="meta"><div class="t1">Rimjhim Gire</div><div class="t2">Kishore · Saregama</div></div>
+          <div class="pp"></div></div>
+      </div>
+    </div>
+    <h3>F · <b>Sirf TV Wale Gaane pe video</b></h3>
+    <p>Nostalgia-TV channel apne scene ke CRT mein video dikhata hai (thematically perfect); baaki 29 channels audio-only. Kahani achhi hai, par asli compliance nahi — 29 channels gray zone mein hi rehte hain.</p>
+    <span class="tag warn">PARTIAL STORY</span>
+  </div>
+</div>
+
+<footer>Wiom Music · UI options demo · 2026-08-12</footer>
+</body>
+</html>
