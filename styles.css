@@ -86,11 +86,17 @@ body[data-daypart="any"] .channel.active::after { background: linear-gradient(18
   animation: toastin .35s ease-out; }
 @keyframes toastin { from { transform: translateY(8px); opacity: 0; } }
 
-/* ---- offscreen audio dock (saloon.wtf pattern: 1px, inert) ---- */
-#yt-dock { position: fixed; z-index: 1; right: 8px; bottom: calc(96px + env(safe-area-inset-bottom));
-  width: 1px; height: 1px; overflow: hidden; opacity: 0.01; pointer-events: none; }
-#yt-holder { width: 320px; height: 180px; }
-#yt, #yt-holder iframe { width: 100%; height: 100%; border: 0; }
+/* ---- minimal bare embed: 200x200 = YouTube's documented visibility floor ---- */
+#yt-dock { position: fixed; z-index: 18; right: 10px; bottom: calc(100px + env(safe-area-inset-bottom));
+  width: 200px; height: 200px; border-radius: 12px; overflow: hidden;
+  background: #000; box-shadow: 0 12px 34px rgba(0,0,0,.55); }
+#yt-holder, #yt, #yt-holder iframe { width: 100%; height: 100%; border: 0; }
+
+#unmute { position: fixed; z-index: 26; left: 50%; transform: translateX(-50%);
+  bottom: calc(320px + env(safe-area-inset-bottom));
+  font-family: "Yatra One", system-ui; font-size: 15px; border: 0; cursor: pointer;
+  background: var(--cream); color: var(--plum); padding: 9px 18px; border-radius: 999px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.5); animation: bob 1.6s ease-in-out infinite; }
 
 /* ---- pill player (the saloon.wtf pill) ---- */
 #pill { position: fixed; z-index: 20; left: 12px; right: 12px; bottom: calc(14px + env(safe-area-inset-bottom));

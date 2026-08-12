@@ -129,12 +129,31 @@ window.onYouTubeIframeAPIReady = function () {
     width: "100%", height: "100%",
     playerVars: { playsinline: 1, rel: 0, autoplay: 0 },
     events: {
-      onReady: () => { playerReady = true; if (started) tuneIn(); },
+      onReady: () => {
+        playerReady = true;
+        // autoplay-by-default: muted playback is allowed without a gesture
+        player.mute();
+        startPlayback();
+        $("unmute").classList.remove("hidden");
+      },
       onStateChange: onYTState,
       onError: onYTError,
     },
   });
 };
+
+/* first gesture anywhere = sound on */
+let unmuted = false;
+function soundOn() {
+  if (unmuted || !playerReady) return;
+  unmuted = true;
+  player.unMute();
+  if (player.getPlayerState() !== YT.PlayerState.PLAYING) player.playVideo();
+  $("unmute").classList.add("hidden");
+  showCoach("coach-swipe");
+}
+document.addEventListener("pointerdown", soundOn, { capture: true });
+$("unmute").onclick = soundOn;
 
 /* ---------- presence + arrival toasts (local heuristic until PartyKit) ---------- */
 function seedCount(slug) {
@@ -193,11 +212,24 @@ function startPlayback() {
   if (started) return;
   started = true;
   setPlayingUI(true);
-  dismissCoach("coach-play");
-  showCoach("coach-swipe");
   $("wiom-cta").classList.add("show");
   tuneIn();
 }
+
+/* horizontal swipe on the feed = prev/next song (vertical stays = channel) */
+let tx = 0, ty = 0;
+$("feed").addEventListener("touchstart", (e) => {
+  tx = e.touches[0].clientX; ty = e.touches[0].clientY;
+}, { passive: true });
+$("feed").addEventListener("touchend", (e) => {
+  const dx = e.changedTouches[0].clientX - tx;
+  const dy = e.changedTouches[0].clientY - ty;
+  if (Math.abs(dx) > 60 && Math.abs(dx) > 1.6 * Math.abs(dy)) step(dx < 0 ? 1 : -1);
+}, { passive: true });
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight") step(1);
+  if (e.key === "ArrowLeft") step(-1);
+});
 $("pp").onclick = () => {
   if (!started) return startPlayback();
   if (!playerReady) return;
@@ -228,7 +260,6 @@ fetch("channels.json")
     const start = idx === -1 ? 0 : idx;
     setActive(start);
     if (start > 0) document.getElementById(CHANNELS[start].slug).scrollIntoView();
-    showCoach("coach-play");
     const tag = document.createElement("script");
     tag.src = "https://www.youtube.com/iframe_api";
     document.head.appendChild(tag);
