@@ -54,6 +54,7 @@ function setActive(i) {
   userQueue = null;
   const ch = CHANNELS[i];
   document.body.dataset.daypart = ch.daypart || "any";
+  document.body.dataset.channel = ch.slug;
   document.querySelectorAll(".channel.active").forEach((s) => s.classList.remove("active"));
   document.getElementById(ch.slug).classList.add("active");
   history.replaceState(null, "", "#" + ch.slug);
@@ -72,6 +73,7 @@ function tuneIn() {
   const pos = userQueue || livePosition(ch);
   const t = ch.tracks[pos.idx];
   setNowPlaying(t);
+  endSkipped = false;
   if (playerReady) player.loadVideoById({ videoId: t.ytId, startSeconds: pos.sec || 0 });
 }
 
@@ -99,6 +101,7 @@ function fmt(s) {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 }
 
+let endSkipped = false;
 function tick() {
   if (!playerReady || !started || !player.getDuration) return;
   const dur = player.getDuration(), cur = player.getCurrentTime();
@@ -106,6 +109,8 @@ function tick() {
     $("bar-fill").style.width = (cur / dur) * 100 + "%";
     $("t-cur").textContent = fmt(cur);
     $("t-tot").textContent = fmt(dur);
+    // jump to next ~9s early so YouTube's end-screen suggestion cards never appear
+    if (!endSkipped && dur - cur < 9 && cur > 5) { endSkipped = true; step(1); }
   }
 }
 setInterval(tick, 1000);
