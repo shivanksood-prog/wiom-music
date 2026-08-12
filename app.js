@@ -57,6 +57,8 @@ function setActive(i) {
   document.querySelectorAll(".channel.active").forEach((s) => s.classList.remove("active"));
   document.getElementById(ch.slug).classList.add("active");
   history.replaceState(null, "", "#" + ch.slug);
+  $("yt-pill").href = "https://www.youtube.com/watch_videos?video_ids=" +
+    ch.tracks.slice(0, 50).map((t) => t.ytId).join(",");
   updatePresence(true);
   if (started) {
     tuneIn();
