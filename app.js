@@ -74,7 +74,13 @@ function tuneIn() {
   const t = ch.tracks[pos.idx];
   setNowPlaying(t);
   endSkipped = false;
+  curTrackDur = t.durationSec || 0;
   if (playerReady) player.loadVideoById({ videoId: t.ytId, startSeconds: pos.sec || 0 });
+}
+
+/* an ad reports a much shorter duration than the real track — detect, never skip it */
+function isAd(dur) {
+  return curTrackDur > 0 && dur > 0 && dur < Math.min(70, curTrackDur * 0.5);
 }
 
 function setNowPlaying(t) {
@@ -101,17 +107,23 @@ function fmt(s) {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 }
 
-let endSkipped = false;
+let endSkipped = false, curTrackDur = 0;
 function tick() {
   if (!playerReady || !started || !player.getDuration) return;
   const dur = player.getDuration(), cur = player.getCurrentTime();
-  if (dur > 0) {
-    $("bar-fill").style.width = (cur / dur) * 100 + "%";
-    $("t-cur").textContent = fmt(cur);
-    $("t-tot").textContent = fmt(dur);
-    // jump to next ~9s early so YouTube's end-screen suggestion cards never appear
-    if (!endSkipped && dur - cur < 9 && cur > 5) { endSkipped = true; step(1); }
+  if (dur <= 0) return;
+  if (isAd(dur)) {
+    // an ad is playing — hold the pill, tell the user, and DO NOT skip it
+    document.body.classList.add("ad");
+    $("np-time").textContent = "▶ Ad chal raha hai · gaana aa raha hai…";
+    return;
   }
+  document.body.classList.remove("ad");
+  $("bar-fill").style.width = (cur / dur) * 100 + "%";
+  $("t-cur").textContent = fmt(cur);
+  $("t-tot").textContent = fmt(dur);
+  // jump to next ~9s early so YouTube's end-screen cards never appear (real track only)
+  if (!endSkipped && dur - cur < 9 && cur > 5) { endSkipped = true; step(1); }
 }
 setInterval(tick, 1000);
 

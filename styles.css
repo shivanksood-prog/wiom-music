@@ -149,6 +149,9 @@ body.playing #disc { animation-play-state: running; }
 #bar { position: relative; height: 3px; border-radius: 2px; background: rgba(255,243,224,.22); margin-top: 7px; overflow: hidden; }
 #bar-fill { position: absolute; inset: 0 auto 0 0; width: 0%; border-radius: 2px; background: var(--cream); opacity: .92; }
 #np-time { font-size: 10px; opacity: .6; font-variant-numeric: tabular-nums; margin-top: 4px; }
+body.ad #np-time { opacity: .95; color: #FFCF9E; }
+body.ad #bar-fill { width: 100% !important; background: repeating-linear-gradient(90deg, #FF8000 0 8px, transparent 8px 16px); opacity: .6; }
+body.ad #disc { animation-duration: 2.4s; }
 #controls { display: flex; align-items: center; gap: 5px; flex: none; }
 #controls button { border: 0; cursor: pointer; display: grid; place-items: center; color: var(--cream);
   background: transparent; width: 34px; height: 34px; border-radius: 50%; transition: transform .12s; }
