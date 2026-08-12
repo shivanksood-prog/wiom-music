@@ -86,11 +86,15 @@ body[data-daypart="any"] .channel.active::after { background: linear-gradient(18
   animation: toastin .35s ease-out; }
 @keyframes toastin { from { transform: translateY(8px); opacity: 0; } }
 
-/* ---- minimal bare embed: 16:9, below the 200x200 API floor by user decision ---- */
+/* ---- minimal video-only embed: chrome cropped out, no interaction ---- */
 #yt-dock { position: fixed; z-index: 18; right: 10px; bottom: calc(100px + env(safe-area-inset-bottom));
-  width: 213px; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden;
-  background: #000; box-shadow: 0 12px 34px rgba(0,0,0,.55); }
-#yt-holder, #yt, #yt-holder iframe { width: 100%; height: 100%; border: 0; }
+  width: 132px; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden;
+  background: #000; box-shadow: 0 10px 28px rgba(0,0,0,.5); pointer-events: none; }
+/* blow the iframe up ~165% and center it so YouTube's top title-gradient and
+   bottom control-zone sit outside the clip window — only the video shows */
+#yt-holder { position: absolute; top: 50%; left: 50%; width: 165%; height: 165%;
+  transform: translate(-50%, -50%); }
+#yt, #yt-holder iframe { width: 100%; height: 100%; border: 0; pointer-events: none; }
 
 #unmute { position: fixed; z-index: 26; left: 50%; transform: translateX(-50%);
   bottom: calc(320px + env(safe-area-inset-bottom));

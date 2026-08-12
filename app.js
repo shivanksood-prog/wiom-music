@@ -127,7 +127,12 @@ function onYTError() { step(1); }
 window.onYouTubeIframeAPIReady = function () {
   player = new YT.Player("yt", {
     width: "100%", height: "100%",
-    playerVars: { playsinline: 1, rel: 0, autoplay: 0 },
+    host: "https://www.youtube-nocookie.com",
+    playerVars: {
+      playsinline: 1, rel: 0, autoplay: 0,
+      controls: 0, disablekb: 1, modestbranding: 1,
+      iv_load_policy: 3, fs: 0, cc_load_policy: 0,
+    },
     events: {
       onReady: () => {
         playerReady = true;
