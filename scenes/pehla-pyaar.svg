@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2CFD8"/><stop offset="0.55" stop-color="#F8E7D2"/><stop offset="0.8" stop-color="#F6E3C8"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE9C0" stop-opacity="0.85"/><stop offset="0.5" stop-color="#FFDCA8" stop-opacity="0.3"/><stop offset="1" stop-color="#FFDCA8" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: soft pink afternoon after the bell -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: blossom tree, school building, boundary wall, yard -->
+<rect x="94" y="320" width="14" height="110" fill="#9A7458"/>
+<circle cx="30" cy="290" r="40" fill="#EFB6C2"/>
+<circle cx="70" cy="240" r="58" fill="#EFB6C2"/>
+<circle cx="140" cy="220" r="52" fill="#EFB6C2"/>
+<circle cx="105" cy="300" r="48" fill="#EFB6C2"/>
+<circle cx="60" cy="225" r="30" fill="#F6CCD6"/>
+<circle cx="130" cy="205" r="26" fill="#F6CCD6"/>
+<rect x="146" y="300" width="244" height="12" fill="#7E90B2"/>
+<rect x="150" y="312" width="240" height="98" fill="#97A8C8"/>
+<rect x="170" y="326" width="14" height="18" fill="#B9C8DE"/><rect x="210" y="326" width="14" height="18" fill="#B9C8DE"/><rect x="250" y="326" width="14" height="18" fill="#B9C8DE"/><rect x="290" y="326" width="14" height="18" fill="#B9C8DE"/><rect x="330" y="326" width="14" height="18" fill="#B9C8DE"/><rect x="364" y="326" width="14" height="18" fill="#B9C8DE"/>
+<rect x="170" y="362" width="14" height="18" fill="#B9C8DE"/><rect x="210" y="362" width="14" height="18" fill="#B9C8DE"/><rect x="330" y="362" width="14" height="18" fill="#B9C8DE"/><rect x="364" y="362" width="14" height="18" fill="#B9C8DE"/>
+<rect x="250" y="340" width="52" height="70" fill="#8496BA"/>
+<rect x="262" y="360" width="28" height="50" fill="#6E80A4"/>
+<rect x="96" y="398" width="294" height="8" fill="#C2A984"/>
+<rect x="96" y="404" width="294" height="52" fill="#D9C4A4"/>
+<rect x="0" y="456" width="390" height="388" fill="#E5CBA6"/>
+<rect x="96" y="456" width="294" height="8" fill="#CDB088"/>
+<!-- 3 mid: parked cycles - hero cycle with flower basket and letter in notebook -->
+<circle cx="302" cy="502" r="20" fill="#5A5468"/><circle cx="302" cy="502" r="15" fill="#E5CBA6"/><circle cx="302" cy="502" r="3" fill="#8A82A0"/>
+<circle cx="356" cy="502" r="20" fill="#5A5468"/><circle cx="356" cy="502" r="15" fill="#E5CBA6"/><circle cx="356" cy="502" r="3" fill="#8A82A0"/>
+<polygon points="308,500 330,472 333,475 311,503" fill="#7A8CB0"/>
+<polygon points="330,472 354,500 351,502 327,475" fill="#7A8CB0"/>
+<polygon points="312,472 331,471 331,475 312,476" fill="#7A8CB0"/>
+<rect x="304" y="466" width="15" height="5" rx="2" fill="#55506A"/>
+<polygon points="352,470 360,468 358,462 350,464" fill="#55506A"/>
+<g transform="translate(150,556)"><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6"/><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6" transform="rotate(60)"/><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6" transform="rotate(120)"/></g>
+<circle cx="150" cy="556" r="33" fill="#474058"/><circle cx="150" cy="556" r="27" fill="#E5CBA6"/><circle cx="150" cy="556" r="4.5" fill="#8A82A0"/>
+<g transform="translate(252,556)"><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6"/><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6" transform="rotate(60)"/><rect x="-27" y="-1" width="54" height="2" fill="#8A82A0" opacity="0.6" transform="rotate(120)"/></g>
+<circle cx="252" cy="556" r="33" fill="#474058"/><circle cx="252" cy="556" r="27" fill="#E5CBA6"/><circle cx="252" cy="556" r="4.5" fill="#8A82A0"/>
+<polygon points="236,500 241,502 254,557 249,558" fill="#4C6EA8"/>
+<polygon points="174,504 179,507 152,558 148,555" fill="#4C6EA8"/>
+<polygon points="236,500 240,504 199,562 194,558" fill="#4C6EA8"/>
+<polygon points="164,504 238,499 238,504 164,509" fill="#4C6EA8"/>
+<polygon points="150,554 196,558 196,562 150,558" fill="#4C6EA8"/>
+<circle cx="196" cy="560" r="7" fill="#3A3448"/>
+<rect x="196" y="566" width="14" height="4" rx="2" fill="#3A3448"/>
+<rect x="158" y="492" width="26" height="9" rx="4" fill="#3A3448"/>
+<polygon points="169,501 175,501 173,507 171,507" fill="#3A3448"/>
+<polygon points="234,498 240,498 239,486 235,486" fill="#3A3448"/>
+<path d="M224 488 q13 -10 26 1 l-2 3 q-11 -9 -22 -1 Z" fill="#3A3448"/>
+<g transform="rotate(-4 148 506)">
+<rect x="126" y="514" width="42" height="5" fill="#474058"/>
+<rect x="128" y="498" width="40" height="16" rx="2" fill="#F2E6CE"/>
+<rect x="128" y="498" width="40" height="5" rx="2" fill="#E4D4B4"/>
+<rect x="150" y="492" width="18" height="9" fill="#EFA8BC"/>
+<path d="M159 495 c-1.6 -2.4 -4 -0.8 -2.4 1.6 l2.4 2.4 2.4 -2.4 c1.6 -2.4 -0.8 -4 -2.4 -1.6 Z" fill="#D6698A"/>
+</g>
+<polygon points="232,506 276,506 272,534 236,534" fill="#C9A06E"/>
+<rect x="236" y="514" width="37" height="3" fill="#B08850"/><rect x="237" y="524" width="35" height="3" fill="#B08850"/>
+<rect x="244" y="506" width="3" height="28" fill="#B08850"/><rect x="259" y="506" width="3" height="28" fill="#B08850"/>
+<g transform="translate(254,506)">
+<polygon points="-18,-2 -13,2 -18,6 -23,2" fill="#7FA06B"/>
+<polygon points="16,-3 21,1 16,5 11,1" fill="#7FA06B"/>
+<circle cx="-10" cy="-6" r="6" fill="#E88AA0"/><circle cx="-12" cy="-8" r="2.4" fill="#F2B0C0"/>
+<circle cx="0" cy="-9" r="6.5" fill="#F2B0C0"/><circle cx="-2" cy="-11" r="2.6" fill="#F8CCDA"/>
+<circle cx="10" cy="-5" r="5.5" fill="#E88AA0"/><circle cx="8" cy="-7" r="2.2" fill="#F2B0C0"/>
+<animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="4s" additive="sum" repeatCount="indefinite"/>
+</g>
+<rect x="60" y="470" width="34" height="42" rx="8" fill="#5A78B0"/>
+<rect x="60" y="470" width="34" height="17" rx="8" fill="#6E88C0"/>
+<rect x="72" y="463" width="10" height="9" rx="3" fill="#47608E"/>
+<!-- 4 near: gate pillar and open gate leaf bleeding off left -->
+<rect x="54" y="316" width="38" height="6" fill="#5A6C8E"/>
+<rect x="54" y="554" width="38" height="6" fill="#5A6C8E"/>
+<rect x="58" y="316" width="6" height="244" fill="#5A6C8E"/><rect x="72" y="316" width="6" height="244" fill="#5A6C8E"/><rect x="86" y="316" width="6" height="244" fill="#5A6C8E"/>
+<rect x="0" y="236" width="60" height="14" fill="#C9B08A"/>
+<rect x="0" y="250" width="54" height="594" fill="#E8D6B8"/>
+<rect x="44" y="250" width="10" height="594" fill="#CFB690"/>
+<!-- 5 light: soft afternoon sun from the upper right -->
+<ellipse cx="330" cy="170" rx="160" ry="160" fill="url(#lg)" opacity="0.3"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

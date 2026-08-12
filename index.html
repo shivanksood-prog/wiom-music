@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wiom Music — har jagah ka apna gaana</title>
+<meta name="description" content="Swipe karo, jagah badlo, gaana chalta rahe. 30 vibe channels — TV wale gaane se lekar highway tak.">
+<meta name="theme-color" content="#1D1428">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Noto+Sans:ital,wght@0,400;0,600;0,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="feed" aria-label="Channels"></div>
+
+<div class="fx-vignette"></div>
+<div class="fx-grain"></div>
+
+<header id="topbar">
+  <div id="clock">–:–</div>
+  <div class="presence"><span class="dot"></span><b id="presence-count">–</b>&nbsp;<span id="presence-noun">yahan hain</span></div>
+  <button id="share-btn" aria-label="Share channel">↗</button>
+</header>
+
+<div id="toast" class="hidden"></div>
+
+<div id="yt-dock" aria-hidden="true"><div id="yt-holder"><div id="yt"></div></div></div>
+
+<div id="pill">
+  <div id="disc-wrap"><img id="disc" src="" alt=""><span id="disc-pin"></span></div>
+  <div id="np">
+    <p id="np-title">…</p>
+    <p id="np-sub">…</p>
+    <div id="bar"><div id="bar-fill"></div></div>
+    <p id="np-time"><span id="t-cur">0:00</span> / <span id="t-tot">0:00</span></p>
+  </div>
+  <div id="controls">
+    <button id="prev" aria-label="Pichla"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
+    <button id="pp" aria-label="Play/Pause"><svg id="ic-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg id="ic-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="hidden"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg></button>
+    <button id="next" aria-label="Agla"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zm-2 6L5.5 6v12z"/></svg></button>
+  </div>
+</div>
+
+<div id="coach-play" class="coach hidden">▶ chalao</div>
+<div id="coach-swipe" class="coach hidden">⬆ swipe — nayi jagah, naya vibe</div>
+
+<a id="wiom-cta" href="https://wiom.tv" target="_blank" rel="noopener">Wiom TV pe 250+ channels FREE →</a>
+
+<script src="app.js"></script>
+</body>
+</html>

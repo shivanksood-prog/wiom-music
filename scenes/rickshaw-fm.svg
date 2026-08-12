@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BFD8E4"/><stop offset="0.3" stop-color="#CFE0E4"/><stop offset="1" stop-color="#E8E2C8"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF3E0" stop-opacity="0.9"/><stop offset="0.5" stop-color="#FFEBBC" stop-opacity="0.35"/><stop offset="1" stop-color="#FFEBBC" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: bright day through the front -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: bazaar shopfronts, awnings, street, pedestrians, cycle, another auto -->
+<rect x="48" y="212" width="70" height="80" fill="#C8705A"/>
+<rect x="48" y="212" width="70" height="6" fill="#D98A72"/>
+<rect x="58" y="234" width="16" height="20" fill="#8A4A3A"/><rect x="88" y="234" width="16" height="20" fill="#8A4A3A"/>
+<path d="M44 268 L122 268 L114 250 L52 250 Z" fill="#D94436"/>
+<path d="M44 268 L70 268 L66 250 L52 250 Z" fill="#F0C24C"/>
+<rect x="118" y="222" width="58" height="70" fill="#7A9AB0"/>
+<rect x="118" y="222" width="58" height="6" fill="#93AFC2"/>
+<rect x="128" y="240" width="14" height="18" fill="#4A6478"/><rect x="152" y="240" width="14" height="18" fill="#4A6478"/>
+<path d="M114 280 L180 280 L174 264 L120 264 Z" fill="#3E8E63"/>
+<rect x="176" y="206" width="64" height="86" fill="#D9A848"/>
+<rect x="176" y="206" width="64" height="6" fill="#E8C070"/>
+<rect x="186" y="228" width="16" height="22" fill="#A87828"/><rect x="214" y="228" width="16" height="22" fill="#A87828"/>
+<path d="M172 274 L244 274 L238 258 L178 258 Z" fill="#C13B6E"/>
+<rect x="240" y="218" width="52" height="74" fill="#B0687A"/>
+<rect x="240" y="218" width="52" height="6" fill="#C48496"/>
+<rect x="250" y="238" width="13" height="17" fill="#7E4656"/><rect x="272" y="238" width="13" height="17" fill="#7E4656"/>
+<rect x="292" y="210" width="50" height="82" fill="#8AA070"/>
+<rect x="292" y="210" width="50" height="6" fill="#A2B788"/>
+<path d="M288 278 L346 278 L340 262 L294 262 Z" fill="#E8892E"/>
+<rect x="48" y="292" width="294" height="120" fill="#9A948A"/>
+<rect x="48" y="292" width="294" height="6" fill="#ABA598"/>
+<ellipse cx="195" cy="368" rx="90" ry="8" fill="#A8A296" opacity="0.7"/>
+<circle cx="96" cy="304" r="4.5" fill="#B87850"/><rect x="90" y="308" width="12" height="17" rx="3" fill="#C13B6E"/>
+<circle cx="130" cy="308" r="4" fill="#8A5A3C"/><rect x="125" y="312" width="10" height="15" rx="3" fill="#EFE2C8"/>
+<circle cx="112" cy="306" r="4" fill="#A2704A"/><rect x="107" y="310" width="10" height="16" rx="3" fill="#4A7FBF"/>
+<circle cx="168" cy="330" r="8" fill="#4A4238"/><circle cx="168" cy="330" r="5" fill="#9A948A"/>
+<circle cx="192" cy="330" r="8" fill="#4A4238"/><circle cx="192" cy="330" r="5" fill="#9A948A"/>
+<rect x="166" y="316" width="28" height="4" rx="2" fill="#4A4238"/>
+<rect x="176" y="308" width="4" height="12" fill="#4A4238"/>
+<path d="M246 322 Q246 296 272 296 Q298 296 298 322 L298 336 L246 336 Z" fill="#E8B92E"/>
+<path d="M246 308 Q252 292 272 292 Q292 292 298 308 L298 300 Q290 286 272 286 Q254 286 246 300 Z" fill="#33241E"/>
+<rect x="256" y="304" width="32" height="14" rx="3" fill="#33241E"/>
+<circle cx="254" cy="336" r="6" fill="#33241E"/><circle cx="290" cy="336" r="6" fill="#33241E"/>
+<!-- 3 mid: windshield glass sheen and stickers -->
+<rect x="48" y="150" width="294" height="196" fill="#C9DCE8" opacity="0.2"/>
+<polygon points="48,150 150,150 82,346 48,346" fill="#FFF3E0" opacity="0.16"/>
+<g>
+<circle cx="86" cy="306" r="6" fill="#D9569A"/><circle cx="97" cy="310" r="6" fill="#D9569A"/><circle cx="93" cy="321" r="6" fill="#D9569A"/><circle cx="80" cy="321" r="6" fill="#D9569A"/><circle cx="76" cy="310" r="6" fill="#D9569A"/><circle cx="86.5" cy="313" r="5" fill="#F0C24C"/>
+<circle cx="128" cy="316" r="10" fill="#E8892E"/><circle cx="128" cy="316" r="6" fill="#F0C24C"/>
+<path d="M158 302 Q172 308 166 322 Q160 330 152 324 Q146 318 152 310 Q155 305 158 302 Z" fill="#3E8E63"/>
+<path d="M310 306 Q315 298 321 306 Q327 298 332 306 Q334 314 321 324 Q308 314 310 306 Z" fill="#C8332A"/>
+</g>
+<!-- 4 near: black frame ring + yellow body, handlebar, meter, mirror, seat -->
+<rect x="34" y="136" width="322" height="290" rx="26" fill="#2A2430"/>
+<path fill-rule="evenodd" d="M0 0 H390 V844 H0 Z M62 150 H328 Q342 150 342 164 V396 Q342 410 328 410 H62 Q48 410 48 396 V164 Q48 150 62 150 Z" fill="#E8B92E"/>
+<rect x="0" y="66" width="390" height="8" fill="#D3A422"/>
+<rect x="0" y="0" width="390" height="10" fill="#F2CC52"/>
+<rect x="0" y="410" width="390" height="14" fill="#D3A422" opacity="0.55"/>
+<g>
+<rect x="268" y="150" width="2.5" height="42" fill="#4A4238"/>
+<path d="M263 192 L276 192 L274 206 L265 206 Z" fill="#3E8E63"/>
+<path d="M264 208 L275 208 L273.5 220 L265.5 220 Z" fill="#4CAF7D"/>
+<path d="M265 222 L274 222 L273 232 L266 232 Z" fill="#3E8E63"/>
+<circle cx="269.5" cy="242" r="9" fill="#D9C848"/>
+<path d="M262 236 Q269 232 277 236 L276 240 Q269 237 263 240 Z" fill="#E8DC70"/>
+<animateTransform attributeName="transform" type="rotate" values="-5 269 150;5 269 150;-5 269 150" dur="3.4s" repeatCount="indefinite"/>
+</g>
+<ellipse cx="316" cy="298" rx="13" ry="17" fill="#3A3442"/>
+<ellipse cx="316" cy="298" rx="9" ry="13" fill="#9FB4C4"/>
+<rect x="312" y="312" width="5" height="46" transform="rotate(-12 314 312)" fill="#332D3B"/>
+<rect x="80" y="452" width="230" height="11" rx="5.5" fill="#332D3B"/>
+<rect x="80" y="452" width="230" height="4" rx="2" fill="#4A4454"/>
+<rect x="68" y="448" width="36" height="18" rx="9" fill="#1D1428"/>
+<rect x="286" y="448" width="36" height="18" rx="9" fill="#1D1428"/>
+<circle cx="282" cy="446" r="9" fill="#2A2430"/>
+<path d="M290 442 L312 434 L312 452 L290 450 Z" fill="#8A96A0"/>
+<path d="M290 442 L312 434 L312 438 L290 445 Z" fill="#B2BCC1"/>
+<rect x="184" y="446" width="22" height="98" fill="#2E2836"/>
+<rect x="184" y="446" width="8" height="98" fill="#3C3546"/>
+<rect x="118" y="472" width="46" height="38" rx="6" fill="#2A2430"/>
+<rect x="118" y="472" width="46" height="7" rx="3" fill="#3C3546"/>
+<circle cx="141" cy="493" r="11" fill="#E8D9C4"/>
+<rect x="139.5" y="484" width="3" height="10" transform="rotate(40 141 493)" fill="#C8332A"/>
+<rect x="0" y="560" width="390" height="284" fill="#261F2E"/>
+<rect x="0" y="560" width="390" height="8" fill="#332B3C"/>
+<path d="M0 662 Q195 630 390 662 L390 706 Q195 674 0 706 Z" fill="#5A3A2E"/>
+<path d="M0 662 Q195 630 390 662 L390 672 Q195 640 0 672 Z" fill="#6E4838"/>
+<!-- 5 light: daylight flooding through the opening -->
+<ellipse cx="195" cy="296" rx="205" ry="205" fill="url(#lg)" opacity="0.35"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

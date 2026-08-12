@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BFD0DA"/><stop offset="0.35" stop-color="#C6D3DB"/><stop offset="0.42" stop-color="#D9CBA8"/><stop offset="1" stop-color="#C4B48A"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF3E0" stop-opacity="0.9"/><stop offset="0.5" stop-color="#FFE9BC" stop-opacity="0.35"/><stop offset="1" stop-color="#FFE9BC" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: hazy khaki day -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: fields, dead-straight road, trees, km posts, dust haze -->
+<rect x="0" y="332" width="390" height="160" fill="#B0A070"/>
+<rect x="0" y="332" width="390" height="5" fill="#BFAF7E"/>
+<rect x="0" y="396" width="390" height="8" fill="#A39158" opacity="0.7"/>
+<rect x="0" y="448" width="390" height="10" fill="#A39158" opacity="0.5"/>
+<polygon points="116,484 274,484 200,334 190,334" fill="#8A8A88"/>
+<polygon points="116,484 138,484 193,334 190,334" fill="#9C9C98"/>
+<polygon points="252,484 274,484 200,334 197,334" fill="#9C9C98"/>
+<rect x="191" y="452" width="9" height="16" rx="2" fill="#D9D4C4" opacity="0.85"/>
+<rect x="192" y="414" width="7" height="12" rx="2" fill="#D9D4C4" opacity="0.8"/>
+<rect x="193" y="384" width="5" height="9" rx="1" fill="#D9D4C4" opacity="0.75"/>
+<rect x="194" y="362" width="4" height="7" rx="1" fill="#D9D4C4" opacity="0.7"/>
+<rect x="194.5" y="346" width="3" height="5" rx="1" fill="#D9D4C4" opacity="0.6"/>
+<ellipse cx="120" cy="336" rx="26" ry="16" fill="#7A9070"/><rect x="117" y="340" width="5" height="14" fill="#6E665A"/>
+<ellipse cx="86" cy="342" rx="20" ry="12" fill="#7A9070"/>
+<ellipse cx="272" cy="338" rx="24" ry="14" fill="#7A9070"/><rect x="269" y="342" width="5" height="12" fill="#6E665A"/>
+<ellipse cx="316" cy="344" rx="18" ry="11" fill="#7A9070"/>
+<rect x="152" y="344" width="6" height="12" fill="#EDE3CC"/><rect x="152" y="344" width="6" height="4" fill="#C87840"/>
+<rect x="238" y="352" width="5" height="10" fill="#EDE3CC"/><rect x="238" y="352" width="5" height="3" fill="#C87840"/>
+<rect x="0" y="306" width="390" height="60" fill="#D9CBA8" opacity="0.3"/>
+<!-- 4 near: bus interior wall around the two-pane windshield -->
+<path fill-rule="evenodd" d="M0 0 H390 V844 H0 Z M50 158 H340 Q356 158 356 174 V468 Q356 484 340 484 H50 Q34 484 34 468 V174 Q34 158 50 158 Z" fill="#5A7A96"/>
+<rect x="0" y="140" width="390" height="10" fill="#6E8CA8"/>
+<rect x="187" y="158" width="9" height="326" fill="#5A7A96"/>
+<rect x="187" y="158" width="3" height="326" fill="#6E8CA8"/>
+<!-- 3 mid: wiper, mirror + swinging tassels, rails, dash, wheel, driver -->
+<rect x="60" y="470" width="3.5" height="96" transform="rotate(-58 62 470)" fill="#3A3F45"/>
+<rect x="150" y="164" width="46" height="28" rx="4" fill="#33383E"/>
+<rect x="154" y="168" width="38" height="20" rx="3" fill="#9FB4C4"/>
+<rect x="160" y="150" width="26" height="6" fill="#4A5E6C"/>
+<g>
+<rect x="170" y="150" width="2.5" height="22" fill="#8A4A32"/>
+<path d="M164 172 L179 172 L175 194 L168 194 Z" fill="#C8503C"/>
+<rect x="165" y="194" width="3" height="16" fill="#D0A848"/><rect x="170" y="194" width="3" height="18" fill="#C8503C"/><rect x="175" y="194" width="3" height="15" fill="#D0A848"/>
+<circle cx="171.5" cy="176" r="3.4" fill="#E8C060"/>
+<animateTransform attributeName="transform" type="rotate" values="-5 171 150;5 171 150;-5 171 150" dur="3.2s" repeatCount="indefinite"/>
+</g>
+<rect x="40" y="194" width="310" height="6" fill="#9AA5AB"/>
+<rect x="40" y="194" width="310" height="2.5" fill="#B2BCC1"/>
+<rect x="296" y="197" width="7" height="424" fill="#9AA5AB"/>
+<rect x="296" y="197" width="2.6" height="424" fill="#B2BCC1"/>
+<rect x="290" y="330" width="19" height="9" rx="4" fill="#7E8A90"/>
+<rect x="0" y="484" width="390" height="80" fill="#B8A87E"/>
+<rect x="0" y="484" width="390" height="9" fill="#C9B98E"/>
+<rect x="128" y="520" width="134" height="110" rx="14" fill="#C4B48A"/>
+<rect x="128" y="520" width="134" height="10" rx="5" fill="#D3C49A"/>
+<rect x="146" y="548" width="98" height="6" rx="3" fill="#8A7A56"/>
+<rect x="146" y="562" width="98" height="6" rx="3" fill="#8A7A56"/>
+<rect x="146" y="576" width="98" height="6" rx="3" fill="#8A7A56"/>
+<ellipse cx="86" cy="446" rx="15" ry="18" fill="#B87850"/>
+<path d="M71 446 Q71 428 86 428 Q101 428 101 446 Q94 438 86 438 Q78 438 71 446 Z" fill="#33243A"/>
+<path d="M50 564 Q52 490 86 482 Q120 490 122 564 Z" fill="#C9B98E"/>
+<path d="M62 494 Q86 480 110 494 L106 486 Q86 476 66 486 Z" fill="#D8CBA2"/>
+<circle cx="86" cy="560" r="64" fill="#3A3F45"/>
+<circle cx="86" cy="560" r="50" fill="#B8A87E"/>
+<circle cx="86" cy="560" r="11" fill="#3A3F45"/>
+<rect x="82" y="512" width="8" height="42" rx="3" fill="#3A3F45"/>
+<rect x="52" y="576" width="8" height="42" rx="3" transform="rotate(52 56 597)" fill="#3A3F45"/>
+<rect x="130" y="576" width="8" height="42" rx="3" transform="rotate(-52 134 597)" fill="#3A3F45"/>
+<!-- 4b near: rexine seat backs bleeding off bottom corners, aisle floor -->
+<rect x="150" y="620" width="90" height="224" fill="#8A8272"/>
+<rect x="150" y="620" width="90" height="8" fill="#9A917E"/>
+<rect x="184" y="628" width="22" height="216" fill="#7E7666" opacity="0.7"/>
+<path d="M-12 844 L-12 606 Q-12 580 14 580 L126 580 Q152 580 152 606 L152 844 Z" fill="#4A7A5E"/>
+<path d="M-12 606 Q-12 580 14 580 L126 580 Q152 580 152 606 L152 618 Q152 592 126 592 L14 592 Q-12 592 -12 618 Z" fill="#58896C"/>
+<rect x="10" y="612" width="14" height="232" rx="7" fill="#3E6950"/>
+<rect x="116" y="612" width="14" height="232" rx="7" fill="#3E6950"/>
+<rect x="38" y="566" width="64" height="9" rx="4.5" fill="#9AA5AB"/>
+<rect x="44" y="573" width="7" height="14" fill="#7E8A90"/>
+<rect x="89" y="573" width="7" height="14" fill="#7E8A90"/>
+<path d="M402 844 L402 606 Q402 580 376 580 L264 580 Q238 580 238 606 L238 844 Z" fill="#4A7A5E"/>
+<path d="M402 606 Q402 580 376 580 L264 580 Q238 580 238 606 L238 618 Q238 592 264 592 L376 592 Q402 592 402 618 Z" fill="#58896C"/>
+<rect x="260" y="612" width="14" height="232" rx="7" fill="#3E6950"/>
+<rect x="366" y="612" width="14" height="232" rx="7" fill="#3E6950"/>
+<rect x="288" y="566" width="64" height="9" rx="4.5" fill="#9AA5AB"/>
+<rect x="294" y="573" width="7" height="14" fill="#7E8A90"/>
+<rect x="339" y="573" width="7" height="14" fill="#7E8A90"/>
+<!-- 5 light: sun through the windshield, upper right -->
+<ellipse cx="292" cy="216" rx="205" ry="170" fill="url(#lg)" opacity="0.35"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

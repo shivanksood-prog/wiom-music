@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4E7CC"/><stop offset="0.6" stop-color="#EDDCBB"/><stop offset="1" stop-color="#E2CCA6"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF3E0" stop-opacity="0.9"/><stop offset="0.5" stop-color="#F2EED8" stop-opacity="0.35"/><stop offset="1" stop-color="#F2EED8" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: cream shop wall -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: floor, mirror wall with reflection, shelf, poster, tube light -->
+<rect x="0" y="560" width="390" height="284" fill="#C6CDC2"/>
+<rect x="0" y="560" width="390" height="10" fill="#A9B2A6"/>
+<rect x="0" y="636" width="390" height="4" fill="#B7BFB3"/>
+<rect x="34" y="168" width="240" height="268" fill="#8E999F"/>
+<rect x="34" y="168" width="240" height="6" fill="#A5B0B5"/>
+<rect x="42" y="176" width="224" height="252" fill="#BFE3D5"/>
+<polygon points="42,176 128,176 66,428 42,428" fill="#DCEFE6" opacity="0.55"/>
+<ellipse cx="152" cy="288" rx="13" ry="10" fill="#96C4B2"/>
+<ellipse cx="152" cy="296" rx="14" ry="16" fill="#B08258"/>
+<path d="M114 322 L190 322 L204 428 L100 428 Z" fill="#D8E9DD"/>
+<path d="M114 322 L190 322 L192 336 L112 336 Z" fill="#E4F0E7"/>
+<rect x="34" y="434" width="240" height="14" fill="#9AA5AB"/>
+<rect x="34" y="434" width="240" height="5" fill="#B2BCC1"/>
+<rect x="52" y="448" width="8" height="16" fill="#7E8A90"/>
+<rect x="248" y="448" width="8" height="16" fill="#7E8A90"/>
+<rect x="58" y="408" width="15" height="26" fill="#EFE2C8"/>
+<rect x="58" y="405" width="15" height="6" rx="2" fill="#C8332A"/>
+<rect x="82" y="410" width="15" height="24" fill="#A8D4C4"/>
+<rect x="82" y="407" width="15" height="6" rx="2" fill="#8E999F"/>
+<rect x="106" y="408" width="15" height="26" fill="#C8332A"/>
+<rect x="106" y="405" width="15" height="6" rx="2" fill="#EFE2C8"/>
+<rect x="136" y="404" width="10" height="30" rx="3" fill="#9AA5AB"/>
+<rect x="138" y="398" width="6" height="8" fill="#7E8A90"/>
+<rect x="222" y="426" width="42" height="8" rx="2" fill="#EFE2C8"/>
+<rect x="224" y="418" width="38" height="8" rx="2" fill="#F6EDDB"/>
+<rect x="226" y="410" width="34" height="8" rx="2" fill="#EFE2C8"/>
+<rect x="292" y="182" width="76" height="120" fill="#D94436"/>
+<rect x="292" y="182" width="76" height="6" fill="#E8695C"/>
+<circle cx="330" cy="228" r="26" fill="#F2E4C8"/>
+<path d="M316 302 L344 302 L344 252 Q330 240 316 252 Z" fill="#33243A"/>
+<rect x="292" y="284" width="76" height="18" fill="#F0C24C"/>
+<rect x="70" y="148" width="200" height="8" rx="4" fill="#FFF3E0"/>
+<rect x="62" y="146" width="12" height="12" rx="2" fill="#8E999F"/>
+<rect x="266" y="146" width="12" height="12" rx="2" fill="#8E999F"/>
+<!-- 3 mid: red revolving chair with caped customer -->
+<ellipse cx="154" cy="576" rx="58" ry="11" fill="#A9B2A6"/>
+<path d="M116 574 L192 574 L172 548 L136 548 Z" fill="#7E8A90"/>
+<path d="M136 548 L172 548 L168 542 L140 542 Z" fill="#96A2A8"/>
+<rect x="149" y="466" width="10" height="80" fill="#8E999F"/>
+<rect x="149" y="466" width="4" height="80" fill="#A5B0B5"/>
+<rect x="162" y="500" width="22" height="6" rx="3" fill="#7E8A90"/>
+<rect x="110" y="438" width="88" height="36" rx="10" fill="#C8332A"/>
+<rect x="110" y="438" width="88" height="10" rx="5" fill="#D94436"/>
+<rect x="96" y="418" width="18" height="40" rx="8" fill="#8E999F"/>
+<rect x="96" y="418" width="18" height="8" rx="4" fill="#A5B0B5"/>
+<rect x="194" y="418" width="18" height="40" rx="8" fill="#8E999F"/>
+<rect x="194" y="418" width="18" height="8" rx="4" fill="#A5B0B5"/>
+<rect x="118" y="330" width="72" height="116" rx="12" fill="#B02A22"/>
+<path d="M112 336 L196 336 L212 472 L96 472 Z" fill="#EFE2C8"/>
+<path d="M112 336 L196 336 L198 352 L110 352 Z" fill="#F8EFDC"/>
+<path d="M150 380 L158 380 L160 452 L148 452 Z" fill="#E2D2B4"/>
+<ellipse cx="154" cy="306" rx="15" ry="18" fill="#C98E6A"/>
+<path d="M139 306 Q139 288 154 288 Q169 288 169 306 Q162 298 154 298 Q146 298 139 306 Z" fill="#3A2B40"/>
+<rect x="148" y="322" width="12" height="10" fill="#B57E5C"/>
+<!-- 4 near: doorframe bleeding off left, hanging red towel -->
+<rect x="0" y="0" width="32" height="844" fill="#7A5A3C"/>
+<rect x="26" y="0" width="6" height="844" fill="#93714E"/>
+<circle cx="18" cy="352" r="4" fill="#4A3625"/>
+<path d="M4 356 L28 356 L26 434 Q16 440 6 434 Z" fill="#C8332A"/>
+<path d="M4 356 L28 356 L27.5 368 L4.5 368 Z" fill="#D94436"/>
+<rect x="13" y="368" width="4" height="60" fill="#A82820"/>
+<!-- 5 light: fluorescent tube glow, gently flickering (the one animation) -->
+<ellipse cx="170" cy="210" rx="235" ry="150" fill="url(#lg)" opacity="0.38">
+<animate attributeName="opacity" values="0.38;0.36;0.4;0.3;0.39;0.38" dur="3.5s" repeatCount="indefinite"/>
+</ellipse>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

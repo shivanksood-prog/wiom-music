@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F2347"/><stop offset="0.55" stop-color="#2A3060"/><stop offset="0.72" stop-color="#453A78"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFD98F" stop-opacity="0.85"/><stop offset="0.5" stop-color="#F2B45C" stop-opacity="0.3"/><stop offset="1" stop-color="#F2B45C" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: deep night blue with a warm fair-glow horizon -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<circle cx="40" cy="80" r="1.2" fill="#C9C4E0" opacity="0.8"/><circle cx="120" cy="52" r="1" fill="#C9C4E0" opacity="0.6"/><circle cx="210" cy="96" r="1.3" fill="#C9C4E0" opacity="0.7"/><circle cx="300" cy="60" r="1" fill="#C9C4E0" opacity="0.6"/><circle cx="360" cy="110" r="1.2" fill="#C9C4E0" opacity="0.7"/><circle cx="70" cy="150" r="1.2" fill="#C9C4E0" opacity="0.6"/>
+<!-- 2 far: tent tops, warm horizon strip, fairground earth -->
+<rect x="0" y="540" width="390" height="20" fill="#3A3468" opacity="0.8"/>
+<polygon points="16,560 92,560 54,488" fill="#2C2653"/>
+<polygon points="96,560 162,560 129,500" fill="#2C2653"/>
+<polygon points="296,560 366,560 331,494" fill="#2C2653"/>
+<rect x="0" y="560" width="390" height="284" fill="#332A52"/>
+<!-- 3 mid: ferris wheel with lit cabins, cotton-candy stall, horn-speaker pole -->
+<polygon points="255,330 205,585 225,585" fill="#3A2F5A"/>
+<polygon points="255,330 305,585 285,585" fill="#3A2F5A"/>
+<g transform="translate(255,330)">
+<rect x="-125" y="-1.5" width="250" height="3" fill="#4A3C6E"/>
+<rect x="-125" y="-1.5" width="250" height="3" fill="#4A3C6E" transform="rotate(45)"/>
+<rect x="-125" y="-1.5" width="250" height="3" fill="#4A3C6E" transform="rotate(90)"/>
+<rect x="-125" y="-1.5" width="250" height="3" fill="#4A3C6E" transform="rotate(135)"/>
+</g>
+<path fill-rule="evenodd" fill="#4A3C6E" d="M383 330a128 128 0 1 0 -256 0a128 128 0 1 0 256 0ZM376 330a121 121 0 1 1 -242 0a121 121 0 1 1 242 0Z"/>
+<circle cx="255" cy="330" r="11" fill="#5C4E85"/><circle cx="255" cy="330" r="4" fill="#8A7BB8"/>
+<rect x="371" y="332" width="18" height="16" rx="3" fill="#D6455A"/><rect x="371" y="332" width="18" height="5" rx="2" fill="#E4707F"/>
+<rect x="334" y="420" width="18" height="16" rx="3" fill="#E8B23A"/><rect x="334" y="420" width="18" height="5" rx="2" fill="#F2C866"/>
+<rect x="246" y="457" width="18" height="16" rx="3" fill="#4FB0A5"/><rect x="246" y="457" width="18" height="5" rx="2" fill="#74C6BC"/>
+<rect x="158" y="420" width="18" height="16" rx="3" fill="#BE5AA8"/><rect x="158" y="420" width="18" height="5" rx="2" fill="#D07EC0"/>
+<rect x="121" y="332" width="18" height="16" rx="3" fill="#E8B23A"/><rect x="121" y="332" width="18" height="5" rx="2" fill="#F2C866"/>
+<rect x="158" y="244" width="18" height="16" rx="3" fill="#4FB0A5"/><rect x="158" y="244" width="18" height="5" rx="2" fill="#74C6BC"/>
+<rect x="246" y="207" width="18" height="16" rx="3" fill="#D6455A"/><rect x="246" y="207" width="18" height="5" rx="2" fill="#E4707F"/>
+<rect x="334" y="244" width="18" height="16" rx="3" fill="#BE5AA8"/><rect x="334" y="244" width="18" height="5" rx="2" fill="#D07EC0"/>
+<g>
+<circle cx="379" cy="330" r="2.4" fill="#F2CE7E"/><circle cx="370" cy="378" r="2.4" fill="#F2CE7E"/><circle cx="343" cy="418" r="2.4" fill="#F2CE7E"/><circle cx="303" cy="445" r="2.4" fill="#F2CE7E"/><circle cx="255" cy="454" r="2.4" fill="#F2CE7E"/><circle cx="207" cy="445" r="2.4" fill="#F2CE7E"/><circle cx="167" cy="418" r="2.4" fill="#F2CE7E"/><circle cx="140" cy="378" r="2.4" fill="#F2CE7E"/><circle cx="131" cy="330" r="2.4" fill="#F2CE7E"/><circle cx="140" cy="282" r="2.4" fill="#F2CE7E"/><circle cx="167" cy="242" r="2.4" fill="#F2CE7E"/><circle cx="207" cy="215" r="2.4" fill="#F2CE7E"/><circle cx="255" cy="206" r="2.4" fill="#F2CE7E"/><circle cx="303" cy="215" r="2.4" fill="#F2CE7E"/><circle cx="343" cy="242" r="2.4" fill="#F2CE7E"/><circle cx="370" cy="282" r="2.4" fill="#F2CE7E"/>
+<animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+</g>
+<rect x="86" y="296" width="5" height="289" fill="#4A3C6E"/>
+<rect x="80" y="290" width="17" height="8" rx="2" fill="#6E7288"/>
+<polygon points="84,296 90,301 70,322 61,314" fill="#9AA0B8"/>
+<ellipse cx="65" cy="318" rx="8" ry="5.5" fill="#565B75" transform="rotate(45 65 318)"/>
+<polygon points="93,301 99,296 122,314 113,322" fill="#9AA0B8"/>
+<ellipse cx="118" cy="318" rx="8" ry="5.5" fill="#565B75" transform="rotate(-45 118 318)"/>
+<polygon points="44,406 148,406 156,436 36,436" fill="#D6455A"/>
+<polygon points="61,406 79,406 76,436 56,436" fill="#EAD9C0"/>
+<polygon points="96,406 113,406 116,436 96,436" fill="#EAD9C0"/>
+<polygon points="131,406 148,406 156,436 136,436" fill="#EAD9C0"/>
+<rect x="48" y="436" width="4" height="34" fill="#4A2A44"/><rect x="140" y="436" width="4" height="34" fill="#4A2A44"/>
+<circle cx="96" cy="452" r="3" fill="#F2CE7E"/>
+<rect x="44" y="470" width="104" height="100" fill="#8A3550"/>
+<rect x="44" y="470" width="104" height="6" fill="#A64868"/>
+<rect x="70" y="444" width="2.5" height="26" fill="#D9CCC0"/><rect x="95" y="440" width="2.5" height="30" fill="#D9CCC0"/><rect x="120" y="446" width="2.5" height="24" fill="#D9CCC0"/>
+<circle cx="71" cy="438" r="12" fill="#E89BC0"/><circle cx="67" cy="434" r="7" fill="#F2BCD6"/>
+<circle cx="96" cy="432" r="13" fill="#E89BC0"/><circle cx="92" cy="428" r="8" fill="#F2BCD6"/>
+<circle cx="121" cy="440" r="11" fill="#E89BC0"/><circle cx="117" cy="436" r="6" fill="#F2BCD6"/>
+<circle cx="66" cy="558" r="7" fill="#2A2148"/><path d="M54 608 L54 578 Q66 568 78 578 L78 608 Z" fill="#2A2148"/>
+<circle cx="106" cy="566" r="6" fill="#2A2148"/><path d="M96 610 L96 582 Q106 573 116 582 L116 610 Z" fill="#2A2148"/>
+<circle cx="308" cy="562" r="7" fill="#2A2148"/><path d="M296 612 L296 582 Q308 572 320 582 L320 612 Z" fill="#2A2148"/>
+<circle cx="345" cy="570" r="6" fill="#2A2148"/><path d="M335 614 L335 586 Q345 577 355 586 L355 614 Z" fill="#2A2148"/>
+<polygon points="10,175 47,192 84,205 121,216 158,225 195,230 233,233 269,232 306,229 343,224 380,215 380,217 343,226 306,231 269,234 233,235 195,232 158,227 121,218 84,207 47,194 10,177" fill="#D9CCC0" opacity="0.6"/>
+<polygon points="40,192 54,192 47,207" fill="#D6455A"/><polygon points="77,205 91,205 84,220" fill="#E8B23A"/><polygon points="114,216 128,216 121,231" fill="#4FB0A5"/><polygon points="151,225 165,225 158,240" fill="#EAD9C0"/><polygon points="188,230 202,230 195,245" fill="#BE5AA8"/><polygon points="226,233 240,233 233,248" fill="#D6455A"/><polygon points="262,232 276,232 269,247" fill="#E8B23A"/><polygon points="299,229 313,229 306,244" fill="#4FB0A5"/><polygon points="336,224 350,224 343,239" fill="#EAD9C0"/>
+<polygon points="200,150 225,159 258,167 292,173 326,176 360,177 390,176 390,178 360,179 326,178 292,175 258,169 225,161 200,152" fill="#D9CCC0" opacity="0.5"/>
+<polygon points="219,159 231,159 225,172" fill="#E8B23A"/><polygon points="252,167 264,167 258,180" fill="#BE5AA8"/><polygon points="286,173 298,173 292,186" fill="#D6455A"/><polygon points="320,176 332,176 326,189" fill="#4FB0A5"/><polygon points="354,177 366,177 360,190" fill="#E8B23A"/>
+<!-- 4 near: balloon-wala's bunch bleeding off the right edge -->
+<polygon points="367,436 369,436 397,558 395,558" fill="#D9CCC0" opacity="0.7"/>
+<polygon points="357,404 359,404 396,558 394,558" fill="#D9CCC0" opacity="0.7"/>
+<polygon points="386,414 388,414 398,558 396,558" fill="#D9CCC0" opacity="0.7"/>
+<circle cx="368" cy="420" r="16" fill="#D6455A"/><circle cx="363" cy="414" r="6" fill="#E4707F"/>
+<circle cx="389" cy="396" r="15" fill="#E8B23A"/><circle cx="384" cy="390" r="5" fill="#F2C866"/>
+<circle cx="358" cy="388" r="13" fill="#4FB0A5"/><circle cx="354" cy="383" r="5" fill="#74C6BC"/>
+<circle cx="384" cy="364" r="12" fill="#BE5AA8"/><circle cx="380" cy="360" r="4" fill="#D07EC0"/>
+<!-- 5 light: warm blaze of the wheel's bulbs -->
+<ellipse cx="255" cy="330" rx="210" ry="210" fill="url(#lg)" opacity="0.38"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7E9CB"/><stop offset="0.55" stop-color="#F0DCB6"/><stop offset="1" stop-color="#E3C89E"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF3E0" stop-opacity="0.9"/><stop offset="0.5" stop-color="#FFE49E" stop-opacity="0.35"/><stop offset="1" stop-color="#FFE49E" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: morning wall -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: teal lower-wall band, skirting, wooden floor, window -->
+<rect x="0" y="368" width="390" height="224" fill="#79A79E"/>
+<rect x="0" y="364" width="390" height="6" fill="#8FBCB2"/>
+<rect x="0" y="588" width="390" height="12" fill="#5E3A20"/>
+<rect x="0" y="600" width="390" height="244" fill="#8A5A34"/>
+<rect x="0" y="600" width="390" height="6" fill="#9C6A3E"/>
+<rect x="0" y="668" width="390" height="4" fill="#96633A"/>
+<rect x="0" y="742" width="390" height="4" fill="#96633A"/>
+<rect x="238" y="172" width="128" height="210" fill="#B98D5C"/>
+<rect x="238" y="172" width="128" height="7" fill="#CFA470"/>
+<rect x="247" y="182" width="110" height="192" fill="#FFDD8A"/>
+<rect x="299" y="182" width="6" height="192" fill="#C89A54"/>
+<rect x="247" y="272" width="110" height="6" fill="#C89A54"/>
+<!-- 3 mid: ceiling fan, steel almirah, CRT with antenna, sofa, table with doodh glass -->
+<rect x="176" y="18" width="4" height="46" fill="#4A3A2A"/>
+<ellipse cx="178" cy="70" rx="48" ry="4.5" fill="#6B4326"/>
+<ellipse cx="178" cy="67" rx="10" ry="6" fill="#4A3A2A"/>
+<rect x="64" y="602" width="12" height="14" fill="#46596A"/>
+<rect x="172" y="602" width="12" height="14" fill="#46596A"/>
+<rect x="56" y="292" width="136" height="312" fill="#7B93A4"/>
+<rect x="56" y="292" width="136" height="10" fill="#98AEBC"/>
+<rect x="64" y="312" width="55" height="280" fill="#6D8494"/>
+<rect x="64" y="312" width="55" height="6" fill="#8099AA"/>
+<rect x="129" y="312" width="55" height="280" fill="#6D8494"/>
+<rect x="129" y="312" width="55" height="6" fill="#8099AA"/>
+<rect x="74" y="332" width="32" height="120" rx="15" fill="#AFC4CF"/>
+<rect x="79" y="340" width="8" height="102" rx="4" fill="#CBDCE4"/>
+<rect x="112" y="426" width="4" height="28" fill="#3E4F5C"/>
+<rect x="132" y="426" width="4" height="28" fill="#3E4F5C"/>
+<rect x="119" y="440" width="10" height="8" fill="#3E4F5C"/>
+<rect x="112" y="154" width="3" height="58" transform="rotate(-24 113 212)" fill="#4A3A2A"/>
+<rect x="128" y="154" width="3" height="58" transform="rotate(24 129 212)" fill="#4A3A2A"/>
+<rect x="110" y="204" width="24" height="7" rx="3" fill="#4A3A2A"/>
+<rect x="66" y="206" width="116" height="90" rx="6" fill="#7A4E2D"/>
+<rect x="66" y="206" width="116" height="9" rx="4" fill="#935F38"/>
+<rect x="76" y="220" width="80" height="64" rx="6" fill="#8FC7BA"/>
+<rect x="76" y="220" width="80" height="16" rx="6" fill="#A8D8CC"/>
+<circle cx="167" cy="234" r="4.5" fill="#4A2F1C"/>
+<circle cx="167" cy="250" r="4.5" fill="#4A2F1C"/>
+<rect x="161" y="264" width="13" height="3" fill="#5E3A20"/>
+<rect x="161" y="271" width="13" height="3" fill="#5E3A20"/>
+<rect x="161" y="278" width="13" height="3" fill="#5E3A20"/>
+<rect x="204" y="472" width="22" height="118" rx="9" fill="#37716A"/>
+<rect x="206" y="496" width="160" height="92" rx="8" fill="#3F7E76"/>
+<rect x="214" y="430" width="146" height="76" rx="10" fill="#4A8B82"/>
+<rect x="222" y="430" width="130" height="36" rx="6" fill="#F4E6CC"/>
+<rect x="222" y="460" width="130" height="4" fill="#B45E3C"/>
+<circle cx="240" cy="444" r="2.6" fill="#B45E3C"/><circle cx="262" cy="444" r="2.6" fill="#B45E3C"/><circle cx="284" cy="444" r="2.6" fill="#B45E3C"/><circle cx="306" cy="444" r="2.6" fill="#B45E3C"/><circle cx="328" cy="444" r="2.6" fill="#B45E3C"/>
+<rect x="228" y="504" width="60" height="42" rx="6" fill="#4A8B82"/>
+<rect x="228" y="504" width="60" height="9" rx="4" fill="#58A197"/>
+<rect x="294" y="504" width="60" height="42" rx="6" fill="#4A8B82"/>
+<rect x="294" y="504" width="60" height="9" rx="4" fill="#58A197"/>
+<rect x="348" y="472" width="24" height="118" rx="9" fill="#37716A"/>
+<rect x="214" y="588" width="10" height="14" fill="#2E5A54"/>
+<rect x="352" y="588" width="10" height="14" fill="#2E5A54"/>
+<ellipse cx="288" cy="618" rx="72" ry="9" fill="#6B4326" opacity="0.45"/>
+<rect x="236" y="558" width="106" height="12" rx="3" fill="#935F38"/>
+<rect x="236" y="558" width="106" height="4" rx="2" fill="#B0824E"/>
+<rect x="244" y="570" width="8" height="44" fill="#6B4326"/>
+<rect x="326" y="570" width="8" height="44" fill="#6B4326"/>
+<ellipse cx="288" cy="558" rx="26" ry="5" fill="#F4E6CC"/>
+<rect x="280" y="526" width="17" height="32" rx="3" fill="#F1E2C8"/>
+<rect x="279" y="524" width="19" height="6" rx="3" fill="#FFF3E0"/>
+<g opacity="0.55">
+<path d="M288 518 C283 510 292 504 287 496 C283 490 290 484 288 477 C287 474 291 474 291 477 C292 485 286 490 290 497 C294 505 284 511 292 517 Z" fill="#FFF3E0"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4.5s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.55;0.18;0.55" dur="4.5s" repeatCount="indefinite"/>
+</g>
+<!-- 4 near: sunlit curtain bleeding off right edge -->
+<path d="M390 -8 L318 -8 C330 62 310 128 324 196 C336 256 314 324 326 392 C336 452 314 520 326 588 C334 638 318 682 326 726 Q356 734 390 726 Z" fill="#F0C24C"/>
+<path d="M344 -8 C354 88 336 200 350 318 C360 418 340 520 352 618 C357 664 349 698 353 726 L369 726 C365 668 373 566 363 474 C355 384 373 262 363 172 C357 110 365 40 361 -8 Z" fill="#D9A83A"/>
+<path d="M322 -8 C330 70 316 150 326 232 C334 300 318 380 328 456 L338 456 C330 380 344 300 336 230 C328 148 340 66 334 -8 Z" fill="#F6D97E"/>
+<!-- 5 light: morning sun through window -->
+<ellipse cx="300" cy="290" rx="235" ry="265" fill="url(#lg)" opacity="0.42"/>
+<polygon points="252,186 330,186 244,616 118,616" fill="#FFE9A8" opacity="0.13"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

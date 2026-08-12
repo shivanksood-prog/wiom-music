@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5C6FA8"/><stop offset="0.4" stop-color="#C39BB4"/><stop offset="0.6" stop-color="#F2C68C"/><stop offset="0.8" stop-color="#F6D9A0"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE9B0" stop-opacity="0.9"/><stop offset="0.5" stop-color="#FFDF9C" stop-opacity="0.35"/><stop offset="1" stop-color="#FFDF9C" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: pale gold dawn rising into blue -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: town rooftops + main shikhara and small spire, backlit silhouettes -->
+<rect x="0" y="448" width="70" height="34" fill="#6B5B8E" opacity="0.7"/>
+<rect x="58" y="438" width="50" height="44" fill="#6B5B8E" opacity="0.6"/>
+<rect x="200" y="452" width="60" height="30" fill="#6B5B8E" opacity="0.6"/>
+<rect x="286" y="444" width="56" height="38" fill="#6B5B8E" opacity="0.7"/>
+<rect x="330" y="436" width="60" height="46" fill="#6B5B8E" opacity="0.6"/>
+<rect x="118" y="352" width="64" height="130" fill="#55487A"/>
+<polygon points="118,352 182,352 176,320 124,320" fill="#55487A"/>
+<polygon points="124,320 176,320 169,288 131,288" fill="#55487A"/>
+<polygon points="131,288 169,288 161,258 139,258" fill="#55487A"/>
+<polygon points="139,258 161,258 154,232 146,232" fill="#55487A"/>
+<ellipse cx="150" cy="229" rx="13" ry="5" fill="#55487A"/>
+<circle cx="150" cy="219" r="5" fill="#55487A"/>
+<polygon points="148,215 152,215 150,201" fill="#55487A"/>
+<polygon points="150,208 150,197 169,203" fill="#D8722E"/>
+<rect x="262" y="404" width="36" height="78" fill="#55487A"/>
+<polygon points="262,404 298,404 293,378 267,378" fill="#55487A"/>
+<polygon points="267,378 293,378 288,354 272,354" fill="#55487A"/>
+<polygon points="272,354 288,354 283,336 277,336" fill="#55487A"/>
+<circle cx="280" cy="331" r="4" fill="#55487A"/>
+<rect x="0" y="480" width="390" height="364" fill="#E2CFB6"/>
+<rect x="0" y="480" width="390" height="10" fill="#CBB598"/>
+<!-- 3 mid: marble gateway with saffron frieze, marigold swag, brass bell, diya steps -->
+<rect x="58" y="338" width="274" height="222" fill="#EDE0CA"/>
+<rect x="58" y="338" width="274" height="10" fill="#F6EBD4"/>
+<rect x="58" y="352" width="274" height="12" fill="#E08A2E"/>
+<path d="M134 560 V430 a61 61 0 0 1 122 0 V560 Z" fill="#D9C0A0"/>
+<path d="M142 560 V430 a53 53 0 0 1 106 0 V560 Z" fill="#4E3550"/>
+<ellipse cx="195" cy="520" rx="34" ry="44" fill="#8A5030" opacity="0.45"/>
+<rect x="194" y="382" width="2" height="34" fill="#6B4E2E"/>
+<ellipse cx="195" cy="420" rx="9" ry="5" fill="#E3B45A"/>
+<path d="M181 442 Q181 416 195 416 Q209 416 209 442 Z" fill="#C9942F"/>
+<rect x="177" y="442" width="36" height="6" rx="2" fill="#A97A22"/>
+<circle cx="195" cy="453" r="4" fill="#7A5518"/>
+<circle cx="86" cy="368" r="5.5" fill="#F0A028"/><circle cx="113" cy="380" r="5.5" fill="#E8C23A"/><circle cx="140" cy="389" r="5.5" fill="#F0A028"/><circle cx="167" cy="395" r="5.5" fill="#E8C23A"/><circle cx="195" cy="397" r="5.5" fill="#F0A028"/><circle cx="223" cy="395" r="5.5" fill="#E8C23A"/><circle cx="250" cy="389" r="5.5" fill="#F0A028"/><circle cx="277" cy="380" r="5.5" fill="#E8C23A"/><circle cx="304" cy="368" r="5.5" fill="#F0A028"/>
+<polygon points="100,371 104,376 100,381 96,376" fill="#6E7A3A"/><polygon points="154,389 158,394 154,399 150,394" fill="#6E7A3A"/><polygon points="236,389 240,394 236,399 232,394" fill="#6E7A3A"/><polygon points="290,371 294,376 290,381 286,376" fill="#6E7A3A"/>
+<circle cx="74" cy="380" r="4.5" fill="#E8C23A"/><circle cx="74" cy="392" r="4.5" fill="#F0A028"/><circle cx="74" cy="404" r="4.5" fill="#E8C23A"/>
+<circle cx="316" cy="380" r="4.5" fill="#E8C23A"/><circle cx="316" cy="392" r="4.5" fill="#F0A028"/><circle cx="316" cy="404" r="4.5" fill="#E8C23A"/>
+<rect x="48" y="560" width="294" height="20" fill="#E8D8C4"/>
+<rect x="38" y="580" width="314" height="20" fill="#DCC9B2"/>
+<rect x="28" y="600" width="334" height="20" fill="#CFBBA2"/>
+<ellipse cx="95" cy="556" rx="9" ry="3.5" fill="#8A4A28"/><path d="M86 556 Q95 568 104 556 Z" fill="#B0603A"/>
+<g transform="translate(95,554)"><path d="M0 0C-4.5 -4 -4 -9 0 -14C4 -9 4.5 -4 0 0Z" fill="#FFD98F"/><path d="M0 -1C-2.5 -4 -2 -7 0 -10C2 -7 2.5 -4 0 -1Z" fill="#F2A93B"/></g>
+<ellipse cx="295" cy="556" rx="9" ry="3.5" fill="#8A4A28"/><path d="M286 556 Q295 568 304 556 Z" fill="#B0603A"/>
+<g transform="translate(295,554)"><path d="M0 0C-4.5 -4 -4 -9 0 -14C4 -9 4.5 -4 0 0Z" fill="#FFD98F"/><path d="M0 -1C-2.5 -4 -2 -7 0 -10C2 -7 2.5 -4 0 -1Z" fill="#F2A93B"/></g>
+<ellipse cx="140" cy="576" rx="9" ry="3.5" fill="#8A4A28"/><path d="M131 576 Q140 588 149 576 Z" fill="#B0603A"/>
+<g transform="translate(140,574)"><path d="M0 0C-4.5 -4 -4 -9 0 -14C4 -9 4.5 -4 0 0Z" fill="#FFD98F"/><path d="M0 -1C-2.5 -4 -2 -7 0 -10C2 -7 2.5 -4 0 -1Z" fill="#F2A93B"/></g>
+<ellipse cx="250" cy="576" rx="9" ry="3.5" fill="#8A4A28"/><path d="M241 576 Q250 588 259 576 Z" fill="#B0603A"/>
+<g transform="translate(250,574)"><path d="M0 0C-4.5 -4 -4 -9 0 -14C4 -9 4.5 -4 0 0Z" fill="#FFD98F"/><path d="M0 -1C-2.5 -4 -2 -7 0 -10C2 -7 2.5 -4 0 -1Z" fill="#F2A93B"/></g>
+<ellipse cx="195" cy="596" rx="9" ry="3.5" fill="#8A4A28"/><path d="M186 596 Q195 608 204 596 Z" fill="#B0603A"/>
+<g transform="translate(195,594)"><path d="M0 0C-4.5 -4 -4 -9 0 -14C4 -9 4.5 -4 0 0Z" fill="#FFD98F"/><path d="M0 -1C-2.5 -4 -2 -7 0 -10C2 -7 2.5 -4 0 -1Z" fill="#F2A93B"/><animateTransform attributeName="transform" type="scale" additive="sum" values="1;1.14;0.94;1.08;1" dur="2.6s" repeatCount="indefinite"/></g>
+<!-- 4 near: marble pillar with saffron tilak band bleeding off right -->
+<rect x="338" y="0" width="52" height="844" fill="#DCC6A6"/>
+<rect x="338" y="0" width="10" height="844" fill="#B79878"/>
+<rect x="338" y="296" width="52" height="26" fill="#DD7F2A"/>
+<rect x="338" y="318" width="52" height="4" fill="#B96420"/>
+<!-- 5 light: dawn sun rising behind the gateway -->
+<ellipse cx="195" cy="425" rx="200" ry="180" fill="url(#lg)" opacity="0.45"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D1428"/><stop offset="0.25" stop-color="#2E2244"/><stop offset="0.45" stop-color="#241A33"/><stop offset="1" stop-color="#201631"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFDFA0" stop-opacity="0.85"/><stop offset="0.5" stop-color="#E8A13C" stop-opacity="0.3"/><stop offset="1" stop-color="#E8A13C" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: night through the glass -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: hills, highway converging, lane dashes, lamps, taillights -->
+<path d="M28 330 Q90 302 150 318 Q200 330 250 312 Q310 296 362 322 L362 508 L28 508 Z" fill="#241A33"/>
+<polygon points="52,508 336,508 206,318 184,318" fill="#3A3142"/>
+<polygon points="52,508 84,508 190,318 184,318" fill="#2E2638"/>
+<polygon points="304,508 336,508 206,318 200,318" fill="#2E2638"/>
+<rect x="186" y="476" width="15" height="7" rx="2" fill="#E8A13C" opacity="0.85"/>
+<rect x="188" y="428" width="11" height="6" rx="2" fill="#E8A13C" opacity="0.8"/>
+<rect x="190" y="390" width="8" height="5" rx="2" fill="#E8A13C" opacity="0.75"/>
+<rect x="191" y="360" width="6" height="4" rx="1" fill="#E8A13C" opacity="0.7"/>
+<rect x="192" y="338" width="4" height="3" rx="1" fill="#E8A13C" opacity="0.6"/>
+<rect x="146" y="298" width="3" height="26" fill="#241A33"/>
+<circle cx="147" cy="296" r="7" fill="#E8A13C" opacity="0.25"/><circle cx="147" cy="296" r="3" fill="#F0C24C"/>
+<rect x="244" y="292" width="3" height="30" fill="#241A33"/>
+<circle cx="245" cy="290" r="7" fill="#E8A13C" opacity="0.25"/><circle cx="245" cy="290" r="3" fill="#F0C24C"/>
+<rect x="168" y="306" width="2.5" height="16" fill="#241A33"/>
+<circle cx="169" cy="304" r="5" fill="#E8A13C" opacity="0.25"/><circle cx="169" cy="304" r="2.2" fill="#F0C24C"/>
+<rect x="222" y="308" width="2.5" height="14" fill="#241A33"/>
+<circle cx="223" cy="306" r="5" fill="#E8A13C" opacity="0.25"/><circle cx="223" cy="306" r="2.2" fill="#F0C24C"/>
+<circle cx="190" cy="326" r="2.4" fill="#D94436"/><circle cx="200" cy="326" r="2.4" fill="#D94436"/>
+<rect x="188" y="330" width="14" height="9" rx="2" fill="#2A2136"/>
+<!-- 3 mid: rain streaks on glass, fairy lights on windshield rim -->
+<g fill="#AEB9D6" opacity="0.22" transform="rotate(16 195 320)">
+<rect x="70" y="180" width="2" height="52"/><rect x="118" y="230" width="2" height="40"/><rect x="96" y="330" width="2" height="60"/><rect x="150" y="160" width="2" height="46"/><rect x="176" y="280" width="2" height="38"/><rect x="142" y="410" width="2" height="54"/><rect x="212" y="196" width="2" height="58"/><rect x="238" y="330" width="2" height="44"/><rect x="204" y="430" width="2" height="40"/><rect x="272" y="228" width="2" height="50"/><rect x="296" y="360" width="2" height="38"/><rect x="262" y="440" width="2" height="34"/><rect x="318" y="270" width="2" height="46"/><rect x="86" y="252" width="2" height="34"/><rect x="288" y="170" width="2" height="36"/>
+</g>
+<g>
+<circle cx="58" cy="182" r="7" fill="#D94436" opacity="0.25"/><circle cx="58" cy="182" r="3.4" fill="#D94436"/>
+<circle cx="86" cy="172" r="7" fill="#F0C24C" opacity="0.25"/><circle cx="86" cy="172" r="3.4" fill="#F0C24C"/>
+<circle cx="114" cy="166" r="7" fill="#3E8E63" opacity="0.25"/><circle cx="114" cy="166" r="3.4" fill="#4CAF7D"/>
+<circle cx="142" cy="162" r="7" fill="#4A7FBF" opacity="0.25"/><circle cx="142" cy="162" r="3.4" fill="#4A7FBF"/>
+<circle cx="170" cy="160" r="7" fill="#D9569A" opacity="0.25"/><circle cx="170" cy="160" r="3.4" fill="#D9569A"/>
+<circle cx="198" cy="160" r="7" fill="#F0C24C" opacity="0.25"/><circle cx="198" cy="160" r="3.4" fill="#F0C24C"/>
+<circle cx="226" cy="162" r="7" fill="#D94436" opacity="0.25"/><circle cx="226" cy="162" r="3.4" fill="#D94436"/>
+<circle cx="254" cy="166" r="7" fill="#3E8E63" opacity="0.25"/><circle cx="254" cy="166" r="3.4" fill="#4CAF7D"/>
+<circle cx="282" cy="172" r="7" fill="#4A7FBF" opacity="0.25"/><circle cx="282" cy="172" r="3.4" fill="#4A7FBF"/>
+<circle cx="310" cy="180" r="7" fill="#D9569A" opacity="0.25"/><circle cx="310" cy="180" r="3.4" fill="#D9569A"/>
+<circle cx="334" cy="192" r="7" fill="#F0C24C" opacity="0.25"/><circle cx="334" cy="192" r="3.4" fill="#F0C24C"/>
+<circle cx="46" cy="206" r="7" fill="#4A7FBF" opacity="0.25"/><circle cx="46" cy="206" r="3.4" fill="#4A7FBF"/>
+<circle cx="348" cy="216" r="7" fill="#D94436" opacity="0.25"/><circle cx="348" cy="216" r="3.4" fill="#D94436"/>
+</g>
+<!-- 4 near: cab frame around windshield, dashboard, mandir with diya, steering wheel -->
+<path fill-rule="evenodd" d="M0 0 H390 V844 H0 Z M52 148 H338 Q362 148 362 172 V484 Q362 508 338 508 H52 Q28 508 28 484 V172 Q28 148 52 148 Z" fill="#2A1D16"/>
+<rect x="0" y="134" width="390" height="12" fill="#3A2A20"/>
+<path d="M0 508 L390 508 L390 648 L0 648 Z" fill="#3A2A20"/>
+<rect x="0" y="508" width="390" height="10" fill="#4E382A"/>
+<circle cx="110" cy="560" r="17" fill="#241A14"/>
+<circle cx="110" cy="560" r="17" fill="#2E2118"/>
+<rect x="108" y="548" width="4" height="13" rx="2" transform="rotate(38 110 560)" fill="#E8A13C"/>
+<circle cx="100" cy="570" r="1.8" fill="#E8A13C"/><circle cx="110" cy="547" r="1.8" fill="#E8A13C"/><circle cx="121" cy="568" r="1.8" fill="#E8A13C"/>
+<rect x="152" y="546" width="34" height="22" rx="4" fill="#241A14"/>
+<rect x="156" y="550" width="26" height="5" rx="2" fill="#4E382A"/>
+<rect x="156" y="559" width="26" height="5" rx="2" fill="#4E382A"/>
+<rect x="250" y="438" width="70" height="72" rx="8" fill="#4A2F1E"/>
+<rect x="250" y="438" width="70" height="8" rx="4" fill="#5E3C26"/>
+<path d="M260 510 L260 470 Q285 448 310 470 L310 510 Z" fill="#33211A"/>
+<circle cx="258" cy="446" r="3.4" fill="#E8892E"/><circle cx="267" cy="450" r="3.4" fill="#F0C24C"/><circle cx="276" cy="452" r="3.4" fill="#E8892E"/><circle cx="285" cy="453" r="3.4" fill="#F0C24C"/><circle cx="294" cy="452" r="3.4" fill="#E8892E"/><circle cx="303" cy="450" r="3.4" fill="#F0C24C"/><circle cx="312" cy="446" r="3.4" fill="#E8892E"/>
+<path d="M271 502 Q285 512 299 502 L294 494 L276 494 Z" fill="#8A4A2A"/>
+<path d="M276 494 L294 494 L292 490 L278 490 Z" fill="#A85E38"/>
+<g>
+<circle cx="285" cy="482" r="10" fill="#E8A13C" opacity="0.3"/>
+<path d="M285 470 C280 479 281 486 285 490 C289 486 290 479 285 470 Z" fill="#F0C24C"/>
+<path d="M285 477 C283 482 283.5 486 285 488 C286.5 486 287 482 285 477 Z" fill="#FFF3E0"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -1.6;0.6 0;0 0" dur="2.4s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="1;0.7;0.95;1" dur="2.4s" repeatCount="indefinite"/>
+</g>
+<path d="M0 648 L390 648 L390 844 L0 844 Z" fill="#261B15"/>
+<circle cx="96" cy="796" r="152" fill="#33231A"/>
+<circle cx="96" cy="796" r="118" fill="#261B15"/>
+<rect x="90" y="676" width="12" height="60" rx="5" fill="#33231A"/>
+<!-- 5 light: sodium glow at the vanishing point -->
+<ellipse cx="195" cy="330" rx="165" ry="112" fill="url(#lg)" opacity="0.42"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>

@@ -1,0 +1,242 @@
+{
+  "tv-wale-gaane": {
+    "name": "TV Wale Gaane",
+    "hindiName": "टीवी वाले गाने",
+    "tagline": "Sunday subah, poora ghar ek TV ke saamne",
+    "counterNoun": "ghar dekh rahe hain",
+    "garnish": "Tap — antenna hilao, static ke baad picture saaf",
+    "shareLine": "Sunday wali feeling — TV Wale Gaane pe hoon 📺 aa jao"
+  },
+  "cutting-shop": {
+    "name": "Cutting Shop",
+    "hindiName": "कटिंग शॉप",
+    "tagline": "₹20 ki cutting, lifetime ki yaadein",
+    "counterNoun": "kursi par baithe hain",
+    "garnish": "Tap — spray bottle ki thandi phuss-phuss",
+    "shareLine": "Cutting Shop ki kursi pe hoon 💈 apna number lagwa lo"
+  },
+  "horn-ok": {
+    "name": "Horn OK",
+    "hindiName": "हॉर्न ओके",
+    "tagline": "NH-48, raat ke 2 baje",
+    "counterNoun": "trucker saath hain",
+    "garnish": "Tap — truck ka pressure horn, pom-pom-pom",
+    "shareLine": "Raat ki highway, Horn OK pe hoon 🚛 lift chahiye kya?"
+  },
+  "chai-tapri": {
+    "name": "Chai Tapri",
+    "hindiName": "चाय टपरी",
+    "tagline": "Adrak wali chai, aadha akhbaar",
+    "counterNoun": "chai pe hain",
+    "garnish": "Tap — kettle se glass mein chai ki dhaar",
+    "shareLine": "Main abhi Chai Tapri pe hoon ☕ dusri chai chadh gayi, aa jao"
+  },
+  "sarkari-bus": {
+    "name": "Sarkari Bus",
+    "hindiName": "सरकारी बस",
+    "tagline": "Driver sahab ki apni cassette",
+    "counterNoun": "sawaari sawar hain",
+    "garnish": "Tap — conductor ka ticket punch, khach-khach",
+    "shareLine": "Sarkari Bus mein hoon, driver sahab ne cassette badli 🚌"
+  },
+  "railgaadi": {
+    "name": "Railgaadi",
+    "hindiName": "रेलगाड़ी",
+    "tagline": "Khidki wali seat",
+    "counterNoun": "musafir saath hain",
+    "garnish": "Tap — platform se 'chaaai-chai' wale ki awaaz guzre",
+    "shareLine": "Railgaadi mein hoon, khidki wali seat mil gayi 🚃 aa jao"
+  },
+  "rickshaw-fm": {
+    "name": "Rickshaw FM",
+    "hindiName": "रिक्शा एफ़एम",
+    "tagline": "Sharma ji ke auto ka FM",
+    "counterNoun": "meter down hain",
+    "garnish": "Tap — kick maro, engine phat-phat-phat shuru",
+    "shareLine": "Rickshaw FM mein baitha hoon 🛺 Sharma ji gaana badal rahe hain"
+  },
+  "mandir-subah": {
+    "name": "Mandir Subah",
+    "hindiName": "मंदिर सुबह",
+    "tagline": "6 baje ki aarti",
+    "counterNoun": "bhakt jude hain",
+    "garnish": "Tap — mandir ki ghanti, goonj door tak",
+    "shareLine": "Mandir Subah pe hoon 🛕 aarti bas shuru hone waali hai"
+  },
+  "college-canteen": {
+    "name": "College Canteen",
+    "hindiName": "कॉलेज कैंटीन",
+    "tagline": "Bunk maar ke, bench baja ke",
+    "counterNoun": "bench baja rahe hain",
+    "garnish": "Tap — bench bajao, dhap-dhap-dhap beat",
+    "shareLine": "Lecture bunk, College Canteen mein hoon 🥟 samosa meri taraf se"
+  },
+  "mela": {
+    "name": "Mela",
+    "hindiName": "मेला",
+    "tagline": "Jhoola upar, dil neeche",
+    "counterNoun": "mele mein hain",
+    "garnish": "Tap — nishana lagao, gubbara phat se phoote",
+    "shareLine": "Mela ghoomne nikla hoon 🎡 jhoole ke paas milte hain"
+  },
+  "chhat": {
+    "name": "Chhat",
+    "hindiName": "छत",
+    "tagline": "Garmi ki raat, taaron waali chhat",
+    "counterNoun": "chhat pe hain",
+    "garnish": "Tap — taara toote, wish maang lo",
+    "shareLine": "Chhat pe leta hoon, taare gin raha hoon 🌙 upar aa jao"
+  },
+  "baarish": {
+    "name": "Baarish",
+    "hindiName": "बारिश",
+    "tagline": "Pehli baarish, bheegi khidki",
+    "counterNoun": "bheeg rahe hain",
+    "garnish": "Tap — khidki ke fog pe ungli, gol saaf",
+    "shareLine": "Baarish pe hoon, khidki ke paas ☔ chai bana ke aao"
+  },
+  "pehla-pyaar": {
+    "name": "Pehla Pyaar",
+    "hindiName": "पहला प्यार",
+    "tagline": "School ke bahar wali cycle",
+    "counterNoun": "cycle stand pe hain",
+    "garnish": "Tap — cycle ki tring-tring, koi mud ke dekhe",
+    "shareLine": "Pehla Pyaar sun raha hoon 💌 kisi ki yaad aa gayi hai"
+  },
+  "bewafa": {
+    "name": "Bewafa",
+    "hindiName": "बेवफ़ा",
+    "tagline": "Purani cassette, taaza zakhm",
+    "counterNoun": "dard mein hain",
+    "garnish": "Tap — cassette rewind khirrr, wahi gaana phir se",
+    "shareLine": "Bewafa pe hoon 💔 volume full hai, sawaal mat karna"
+  },
+  "disco-82": {
+    "name": "Disco 82",
+    "hindiName": "डिस्को ८२",
+    "tagline": "Bappi da, shining jacket",
+    "counterNoun": "floor pe hain",
+    "garnish": "Tap — floor tile jale, beat pe flash",
+    "shareLine": "Disco 82 ke floor pe hoon 🕺 shining jacket pehen ke aao"
+  },
+  "jhankaar": {
+    "name": "Jhankaar",
+    "hindiName": "झंकार",
+    "tagline": "Har gaane mein dhol ka tadka",
+    "counterNoun": "jhoom rahe hain",
+    "garnish": "Tap — dholak ki thaap, jhankaar aur badhe",
+    "shareLine": "Jhankaar pe hoon 🥁 har gaane mein dhol, jhoomna free"
+  },
+  "indipop": {
+    "name": "Indipop",
+    "hindiName": "इंडीपॉप",
+    "tagline": "Cable TV, pop cassettes, 1997",
+    "counterNoun": "walkman pe hain",
+    "garnish": "Tap — boombox ka bass-boost button, dhak-dhak",
+    "shareLine": "Indipop pe hoon 📼 seedha 1997 se live chal raha hai"
+  },
+  "remix-2004": {
+    "name": "Remix 2004",
+    "hindiName": "रीमिक्स २००४",
+    "tagline": "Woh remix wali CDs",
+    "counterNoun": "CD ghisa rahe hain",
+    "garnish": "Tap — CD scratch, wikki-wikki DJ sound",
+    "shareLine": "Remix 2004 pe hoon 💿 wahi CD-burn wale remix baj rahe hain"
+  },
+  "2005-fm": {
+    "name": "2005 FM",
+    "hindiName": "२००५ एफ़एम",
+    "tagline": "Signal sab green, gaana sad",
+    "counterNoun": "drive pe hain",
+    "garnish": "Tap — window neeche, hawa aur gaana dono tez",
+    "shareLine": "2005 FM laga ke nikla hoon 🚗 flyover bilkul khaali hai"
+  },
+  "radio-raat": {
+    "name": "Radio Raat",
+    "hindiName": "रेडियो रात",
+    "tagline": "Neend nahi aati, radio aata hai",
+    "counterNoun": "jaag rahe hain",
+    "garnish": "Tap — dial ghumao, static se station mile",
+    "shareLine": "Neend nahi aa rahi, Radio Raat sun raha hoon 📻 tum bhi suno"
+  },
+  "antakshari": {
+    "name": "Antakshari",
+    "hindiName": "अंताक्षरी",
+    "tagline": "'म' se gaana!",
+    "counterNoun": "khel rahe hain",
+    "garnish": "Tap — 'baithe baithe kya karein' chant shuru",
+    "shareLine": "Main Antakshari khel raha hoon 🎤 'म' se gaana, tumhari baari"
+  },
+  "desh-bhakti": {
+    "name": "Desh Bhakti",
+    "hindiName": "देशभक्ति",
+    "tagline": "26 January ki subah",
+    "counterNoun": "salaami mein hain",
+    "garnish": "Tap — jhanda fehre, phool barsein",
+    "shareLine": "Desh Bhakti pe hoon 🇮🇳 PT wali subah yaad aa gayi"
+  },
+  "baraat": {
+    "name": "Baraat",
+    "hindiName": "बारात",
+    "tagline": "Nagin dhun pe poori gali",
+    "counterNoun": "naach rahe hain",
+    "garnish": "Tap — dhol pe note udao, noton ki baarish",
+    "shareLine": "Baraat mein naach raha hoon 🥁 nagin step ready rakhna"
+  },
+  "jagran": {
+    "name": "Jagran",
+    "hindiName": "जागरण",
+    "tagline": "Mata ki chowki, subah tak",
+    "counterNoun": "jagran mein hain",
+    "garnish": "Tap — jaikara goonje, 'Jai Mata Di!'",
+    "shareLine": "Jagran mein baitha hoon 🙏 subah tak jagna hai, saath do"
+  },
+  "qawwali": {
+    "name": "Qawwali",
+    "hindiName": "क़व्वाली",
+    "tagline": "Dargah ki shaam",
+    "counterNoun": "haazri mein hain",
+    "garnish": "Tap — qawwali wali taali, mehfil saath de",
+    "shareLine": "Qawwali mein haazri lagi hai 🕌 Nusrat sahab chal rahe hain"
+  },
+  "mehfil": {
+    "name": "Mehfil",
+    "hindiName": "महफ़िल",
+    "tagline": "Shaam, sher, aur Jagjit sahab",
+    "counterNoun": "mehfil mein hain",
+    "garnish": "Tap — 'wah wah!' ki daad goonje",
+    "shareLine": "Mehfil mein hoon 🕯️ Jagjit sahab, ek sher ho jaaye"
+  },
+  "pind": {
+    "name": "Pind",
+    "hindiName": "पिंड",
+    "tagline": "Pind di mitti, tape wala geet",
+    "counterNoun": "pind ton hain",
+    "garnish": "Tap — tractor ka self, dug-dug-dug start",
+    "shareLine": "Pind pahunch gaya hoon 🚜 sarson ke khet, speaker full"
+  },
+  "ragni": {
+    "name": "Ragni",
+    "hindiName": "रागनी",
+    "tagline": "Hookah gudgudaya, ragni chhidi",
+    "counterNoun": "chaupal pe hain",
+    "garnish": "Tap — hookah gudgud kare, dhuan uthe",
+    "shareLine": "Chaupal pe baitha hoon 🌾 Ragni chhidi hai, aaja bhai"
+  },
+  "bhojpuri-express": {
+    "name": "Bhojpuri Express",
+    "hindiName": "भोजपुरी एक्सप्रेस",
+    "tagline": "Bus adde ka speaker, full volume",
+    "counterNoun": "express mein hain",
+    "garnish": "Tap — khalasi ki hank, 'Aara-Chhapra-Ballia!'",
+    "shareLine": "Bhojpuri Express pakad li hai 🔊 volume full, sharam zero"
+  },
+  "padharo": {
+    "name": "Padharo",
+    "hindiName": "पधारो",
+    "tagline": "Padharo mhare des",
+    "counterNoun": "des mein hain",
+    "garnish": "Tap — been ki dhun, kalbeliya ghoomein",
+    "shareLine": "Padharo pe hoon 🏜️ registan ki shaam, aag ke paas baitho"
+  }
+}

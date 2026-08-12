@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A3363"/><stop offset="0.28" stop-color="#7A4A6E"/><stop offset="0.4" stop-color="#C06058"/><stop offset="0.47" stop-color="#E8823C"/><stop offset="0.53" stop-color="#F0B060"/><stop offset="0.6" stop-color="#E8823C"/><stop offset="1" stop-color="#6A4A8A"/></linearGradient>
+<radialGradient id="lg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE0A0" stop-opacity="0.95"/><stop offset="0.5" stop-color="#FFCC80" stop-opacity="0.35"/><stop offset="1" stop-color="#FFCC80" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- 1 sky/backdrop: orange-purple dusk -->
+<rect width="390" height="844" fill="url(#sky)"/>
+<!-- 2 far: low sun, treeline, black-green fields, pond glint -->
+<circle cx="148" cy="394" r="27" fill="#FFCF7E"/>
+<path d="M30 402 Q70 384 110 396 Q150 406 190 390 Q240 374 280 392 Q325 408 360 394 L360 412 L30 412 Z" fill="#4A3355" opacity="0.85"/>
+<rect x="30" y="404" width="330" height="156" fill="#26301D"/>
+<rect x="30" y="404" width="330" height="6" fill="#39452A"/>
+<ellipse cx="100" cy="448" rx="34" ry="10" fill="#1F2818"/>
+<ellipse cx="250" cy="470" rx="46" ry="12" fill="#1F2818"/>
+<ellipse cx="330" cy="436" rx="28" ry="9" fill="#1F2818"/>
+<rect x="30" y="496" width="330" height="5" fill="#39452A" opacity="0.7"/>
+<ellipse cx="172" cy="432" rx="30" ry="6" fill="#E8823C" opacity="0.5"/>
+<!-- 3 mid: telegraph poles rushing past (the one animation), shutter, kulhad, bars -->
+<g fill="#241A2E">
+<rect x="58" y="268" width="6" height="136"/><rect x="44" y="278" width="34" height="4"/><rect x="48" y="290" width="26" height="4"/>
+<rect x="188" y="268" width="6" height="136"/><rect x="174" y="278" width="34" height="4"/><rect x="178" y="290" width="26" height="4"/>
+<rect x="318" y="268" width="6" height="136"/><rect x="304" y="278" width="34" height="4"/><rect x="308" y="290" width="26" height="4"/>
+<rect x="448" y="268" width="6" height="136"/><rect x="434" y="278" width="34" height="4"/><rect x="438" y="290" width="26" height="4"/>
+<animateTransform attributeName="transform" type="translate" from="0 0" to="-130 0" dur="3.6s" repeatCount="indefinite"/>
+</g>
+<rect x="30" y="142" width="330" height="46" fill="#33455E"/>
+<rect x="30" y="182" width="330" height="8" fill="#2A394E"/>
+<rect x="182" y="172" width="26" height="7" rx="3" fill="#2A394E"/>
+<rect x="35" y="216" width="320" height="7" rx="3.5" fill="#2E2438"/>
+<rect x="35" y="290" width="320" height="7" rx="3.5" fill="#2E2438"/>
+<rect x="35" y="364" width="320" height="7" rx="3.5" fill="#2E2438"/>
+<rect x="35" y="438" width="320" height="7" rx="3.5" fill="#2E2438"/>
+<!-- 4 near: coach wall framing the window, sill with kulhad and latch -->
+<path fill-rule="evenodd" d="M0 0 H390 V844 H0 Z M42 150 H348 Q360 150 360 162 V548 Q360 560 348 560 H42 Q30 560 30 548 V162 Q30 150 42 150 Z" fill="#3E5170"/>
+<rect x="0" y="96" width="390" height="6" fill="#364763"/>
+<circle cx="38" cy="99" r="2.6" fill="#4A5F82"/><circle cx="118" cy="99" r="2.6" fill="#4A5F82"/><circle cx="198" cy="99" r="2.6" fill="#4A5F82"/><circle cx="278" cy="99" r="2.6" fill="#4A5F82"/><circle cx="358" cy="99" r="2.6" fill="#4A5F82"/>
+<rect x="0" y="660" width="390" height="6" fill="#364763"/>
+<circle cx="38" cy="663" r="2.6" fill="#4A5F82"/><circle cx="118" cy="663" r="2.6" fill="#4A5F82"/><circle cx="198" cy="663" r="2.6" fill="#4A5F82"/><circle cx="278" cy="663" r="2.6" fill="#4A5F82"/><circle cx="358" cy="663" r="2.6" fill="#4A5F82"/>
+<rect x="22" y="560" width="346" height="28" rx="4" fill="#4A6280"/>
+<rect x="22" y="560" width="346" height="9" rx="4" fill="#5A7492"/>
+<path d="M94 560 L126 560 L131 526 L89 526 Z" fill="#A85A38"/>
+<path d="M89 526 L131 526 L130 518 L90 518 Z" fill="#C4744A"/>
+<ellipse cx="110" cy="518" rx="20" ry="4" fill="#8A4A2E"/>
+<ellipse cx="110" cy="518" rx="14" ry="2.6" fill="#B87838"/>
+<rect x="298" y="540" width="16" height="20" rx="3" fill="#8A96A0"/>
+<circle cx="306" cy="546" r="4" fill="#6E7A84"/>
+<!-- 5 light: dusk sun glow spilling through the window -->
+<ellipse cx="150" cy="392" rx="150" ry="128" fill="url(#lg)" opacity="0.45"/>
+<filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.55 0"/></filter>
+<rect width="390" height="844" filter="url(#g)" opacity="0.16"/>
+</svg>
