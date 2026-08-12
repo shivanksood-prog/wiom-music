@@ -267,6 +267,17 @@ $("pp").onclick = () => {
 $("prev").onclick = () => started && step(-1);
 $("next").onclick = () => started && step(1);
 
+/* ---------- version toggle: A = audio-only, B (?tv) = embedded CRT ---------- */
+function applyMode(tv) {
+  document.body.classList.toggle("tv-mode", tv);
+  $("mode-toggle").textContent = tv ? "🎵 Sirf audio" : "📺 TV dikhao";
+  const u = new URL(location);
+  if (tv) u.searchParams.set("tv", "1"); else u.searchParams.delete("tv");
+  history.replaceState(null, "", u.pathname + u.search + u.hash);
+}
+applyMode(new URLSearchParams(location.search).has("tv"));
+$("mode-toggle").onclick = () => applyMode(!document.body.classList.contains("tv-mode"));
+
 window.__wm = () => ({
   ready: playerReady, started, active,
   state: player && player.getPlayerState ? player.getPlayerState() : null,

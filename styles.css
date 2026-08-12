@@ -90,13 +90,38 @@ body[data-daypart="any"] .channel.active::after { background: linear-gradient(18
   animation: toastin .35s ease-out; }
 @keyframes toastin { from { transform: translateY(8px); opacity: 0; } }
 
-/* ---- audio-only: player docked offscreen, no visible video ---- */
+/* ===== VERSION A (default): audio-only, player docked offscreen, no video ===== */
 #tvset { position: fixed; z-index: 1; right: 6px; bottom: calc(90px + env(safe-area-inset-bottom));
   width: 1px; height: 1px; overflow: hidden; opacity: 0.01; pointer-events: none; }
 #tv-cabinet, #tv-shadow, #tv-glass { display: none; }
 #yt-screen { position: absolute; inset: 0; }
 #yt-holder { width: 320px; height: 180px; }
 #yt, #yt-holder iframe { width: 100%; height: 100%; border: 0; }
+
+/* ===== VERSION B (body.tv-mode): centered in-scene CRT with embedded video ===== */
+body.tv-mode #tvset { z-index: 12; left: 50%; top: 42%; right: auto; bottom: auto;
+  transform: translate(-50%, -50%); width: min(72vw, 266px); height: auto;
+  overflow: visible; opacity: 1; }
+body.tv-mode[data-channel="tv-wale-gaane"] #tvset { top: 49%; }
+body.tv-mode #tv-cabinet { display: block; width: 100%; height: auto;
+  filter: drop-shadow(0 16px 30px rgba(13, 9, 19, .55)); }
+body.tv-mode #tv-shadow { display: block; position: absolute; left: 50%; bottom: -14px;
+  transform: translateX(-50%); width: 78%; height: 26px; border-radius: 50%;
+  background: rgba(13, 9, 19, .45); filter: blur(9px); }
+body.tv-mode #yt-screen { position: absolute; inset: auto; left: 10.38%; top: 25.9%;
+  width: 60.77%; height: 52.7%; border-radius: 9px; overflow: hidden; background: #0d0913; }
+body.tv-mode #yt-holder { position: absolute; top: 50%; left: 50%; width: auto; height: 168%;
+  aspect-ratio: 16 / 9; transform: translate(-50%, -50%); }
+body.tv-mode #tv-glass { display: block; position: absolute; left: 10.38%; top: 25.9%;
+  width: 60.77%; height: 52.7%; border-radius: 9px; pointer-events: none;
+  background: radial-gradient(120% 90% at 50% 8%, rgba(255,243,224,.14), transparent 45%);
+  box-shadow: inset 0 0 20px rgba(0,0,0,.55); }
+
+/* ---- mode toggle chip ---- */
+#mode-toggle { position: fixed; z-index: 22; right: 12px; bottom: calc(96px + env(safe-area-inset-bottom));
+  font-size: 11.5px; font-weight: 600; color: var(--cream); cursor: pointer;
+  background: var(--glass); border: 1px solid var(--glass-line); padding: 6px 12px; border-radius: 999px;
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 
 #unmute { position: fixed; z-index: 26; left: 50%; transform: translateX(-50%);
   bottom: calc(232px + env(safe-area-inset-bottom));
